@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<html>
+    <div class="background-image">
+    <div id="myBtnContainer" hidden>
+        <div class="buttons-container">
+        <button class="btn" onclick="dynamaxpokedex()"> Dynamax Pokedex</button>
+    </div>
+    <br>
+    <div class="buttons-container1">
+        <button class="btn" onclick="gigantamaxpokedex()"> Gigantamax Pokedex</button>
+    </div>
+    <br>
+    <div class="buttons-container2">
+        <button class="btn" onclick="dynamaxinformation()"> Dynamax Information</button>
+    </div>
+      </div>
+      <button id="myHome" onclick="home()" hidden>Home</button>
+    <div class="container">
+        <div class="form-container" id="form-container">
+            <form id="signup-form">
+                <h2 id="signup">Sign Up</h2>
+                <input type="text" id="signup-username" placeholder="Username" required>
+                <input type="email" id="signup-email" placeholder="Email" required>
+                <input type="password" id="signup-password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+        <br>
+        <div class="container1">
+        <div class="form-container1" id="form-container1">
+            <form id="login-form">
+                <h2 id="login">Log In</h2>
+                <input type="text" id="login-username" placeholder="Username" required>
+                <input type="password" id="login-password" placeholder="Password" required>
+                <button type="submit">Log In</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="dynamax-pokedex" hidden>
+    <button id="pokedexbutton1" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//001.png" id="pokedeximage1"><p>Release: September 10th, 2024</p></button>
+    <br>
+    <button id="pokedexbutton2" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//002.png" id="pokedeximage2"><p>Release: September 10th, 2024</p></button>
+    <br>
+    <button id="pokedexbutton3" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//003.png" id="pokedeximage3"><p>Release: September 10th, 2024</p></button>
+    <br>
+    <button id="pokedexbutton4" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//004.png" id="pokedeximage4"><p>Release: September 10th, 2024</p></button>
+    <br>
+    <button id="pokedexbutton5" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//005.png" id="pokedeximage5"><p>Release: September 10th, 2024</p></button>
+    <br>
+    <button id="pokedexbutton6" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//006.png" id="pokedeximage6"><p>Release: September 10th, 2024</p></button>
+</div>
+    <div id="dynamax-information" hidden>
+        <p id="informations">Dynamax is a unique phenomenon where Pokémon grow significantly larger, surrounded by a mysterious red glow and swirling clouds. Pokémon with the ability to Dynamax can be encountered, battled, and caught through Max Battles.</p>
+        <img src="https://lh3.googleusercontent.com/-B-kDivUEqM6oHlTvC7mL7IhTiIlmBOpDahdNe35QQECdNuH0Biz34FSfgZcdv3b992UpaLWXseXfaLJESVlAH74VWz_JPNGTAiRgrcbYfnjEQ=e365-w1920" id="image1">
+        <p id="informations1">Dynamax Pokémon can be found in the wild at Power Spots throughout the map. Partner with your own Dynamax Pokémon in order to defeat Power Spot Bosses! Select one of your Dynamax Pokémon and use Candy and Max Particles to unlock Max Moves, and level up the moves for stronger effects!</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
