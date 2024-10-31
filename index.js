@@ -36,6 +36,15 @@ function home() {
   document.getElementById("pokedexbutton4").style.display = "none";
   document.getElementById("pokedexbutton5").style.display = "none";
   document.getElementById("pokedexbutton6").style.display = "none";
+  document.getElementById("pokedexbutton7").style.display = "none";
+  document.getElementById("pokedexbutton8").style.display = "none";
+  document.getElementById("pokedexbutton9").style.display = "none";
+  document.getElementById("pokedexbutton10").style.display = "none";
+  document.getElementById("pokedexbutton11").style.display = "none";
+  document.getElementById("pokedexbutton12").style.display = "none";
+  document.getElementById("pokedexbutton13").style.display = "none";
+  document.getElementById("pokedexbutton14").style.display = "none";
+  document.getElementById("pokedexbutton15").style.display = "none";
   document.getElementById("dynamax-information").style.display = "none";
   document.getElementById("dynamax-pokedex").style.display = "none";
   document.getElementById("myHome").style.display = "none";
@@ -57,4 +66,13 @@ function dynamaxpokedex() {
   document.getElementById("pokedexbutton4").style.display = "block";
   document.getElementById("pokedexbutton5").style.display = "block";
   document.getElementById("pokedexbutton6").style.display = "block";
+  document.getElementById("pokedexbutton7").style.display = "block";
+  document.getElementById("pokedexbutton8").style.display = "block";
+  document.getElementById("pokedexbutton9").style.display = "block";
+  document.getElementById("pokedexbutton10").style.display = "block";
+  document.getElementById("pokedexbutton11").style.display = "block";
+  document.getElementById("pokedexbutton12").style.display = "block";
+  document.getElementById("pokedexbutton13").style.display = "block";
+  document.getElementById("pokedexbutton14").style.display = "block";
+  document.getElementById("pokedexbutton15").style.display = "block";
 }

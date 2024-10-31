@@ -8,7 +8,7 @@ body, html {
   background-image: url('https://i.pinimg.com/236x/16/57/18/1657189dcfbee70da8cc701f64fbac96.jpg'); /* Replace with your image URL */
   background-size: cover; /* Cover the entire div */
   background-position: center; /* Center the image */
-  height: 1920px; /* Full height of the viewport */
+  height: 2400px; /* Full height of the viewport */
   color: white; /* Text color */
   display: flex; /* Flexbox for centering */
   flex-direction: column; /* Column layout */
@@ -24,7 +24,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 1080px;
-  height: 1920px;
+  height: 2400px;
 }
 
 .container {
@@ -57,20 +57,23 @@ h2 {
 
 input {
   width: 950px;
+  height: 100px;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
+  font-size: 50px;
 }
 
 button {
   width: 950px;
+  height: 100px;
   padding: 10px;
   background-color: #5cb85c;
   border: none;
   border-radius: 5px;
   color: white;
-  font-size: 16px;
+  font-size: 50px;
 }
 
 #myBtnContainer {
@@ -78,7 +81,6 @@ button {
   background-color: #333;
   font-family: Arial;
   width: 1080px;
-  position:fixed;
 }
 
 .container {
@@ -110,27 +112,35 @@ button {
 .button-container {
   display: flex;
   position: absolute;
-  height: 800px;
+  height: 2400px;
 }
 
 #signup {
+  font-size: 50px;
   color: #333;
 }
 
 #login {
+  font-size: 50px;
   color: #333;
 }
 
 #informations {
+  font-size: 50px;
   background: #333;
 }
 
 #informations1 {
+  font-size: 50px;
   background: #333;
 }
 
 #image1 {
   width: 1080px;
+}
+
+#dynamax-pokedex {
+  height: 2400px;
 }
 
 #pokedexbutton1 {
@@ -184,6 +194,87 @@ button {
 }
 
 #pokedeximage6 {
+  width: 70px;
+}
+
+#pokedexbutton7 {
+  border: solid white;
+  background-color: #90D5FF
+}
+
+#pokedexbutton8 {
+  border: solid white;
+  background-color: #90D5FF
+}
+
+#pokedexbutton9 {
+  border: solid white;
+  background-color: #90D5FF
+}
+
+#pokedeximage7 {
+  width: 70px;
+}
+
+#pokedeximage8 {
+  width: 70px;
+}
+
+#pokedeximage9 {
+  width: 70px;
+}
+
+#pokedexbutton10 {
+  border: solid white;
+  background-color: #673AB7
+}
+
+#pokedexbutton11 {
+  border: solid white;
+  background-color: #673AB7
+}
+
+#pokedexbutton12 {
+  border: solid white;
+  background-color: #673AB7
+}
+
+#pokedeximage10 {
+  width: 70px;
+}
+
+#pokedeximage11 {
+  width: 70px;
+}
+
+#pokedeximage12 {
+  width: 70px;
+}
+
+#pokedexbutton13 {
+  border: solid white;
+  background-color: #A19D94
+}
+
+#pokedexbutton14 {
+  border: solid white;
+  background-color: #A19D94
+}
+
+#pokedexbutton15 {
+  border: solid white;
+  background-color: #A19D94
+}
+
+#pokedeximage13 {
+  width: 70px;
+}
+
+#pokedeximage14 {
+  width: 70px;
+}
+
+#pokedeximage15 {
   width: 70px;
 }
 
