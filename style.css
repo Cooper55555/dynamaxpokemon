@@ -157,6 +157,7 @@ button {
 #pokedexbutton3 {
   border: solid white;
   background-color: #5cb85c;
+  width: 100px;
 }
 
 #pokedeximage1 {
@@ -503,7 +504,7 @@ button {
 #pokedexBulbasaurInfo1 {
   border: solid white;
   width: 550px;
-  height: 1800px;
+  height: 1810px;
   background-color: #333;
   position: relative;
   display: inline-block;
@@ -552,9 +553,18 @@ button {
 #pokedexIvysaurInfo1 {
   border: solid white;
   width: 550px;
-  height: 1800px;
+  height: 1810px;
   background-color: #333;
   position: relative;
+  display: inline-block;
+}
+
+#pokedexIvysaurInfo2 {
+  border: solid white;
+  width: 957px;
+  height: 370px;
+  background-color: #333;
+  position: absolute;
   display: inline-block;
 }
 
@@ -569,6 +579,55 @@ button {
 }
 
 #pokedexbuttoninfo19 {
+  border: solid white;
+  width: 850px
+}
+
+#pokedeximageVenusaur {
+  width: 350px;
+}
+
+#pokedex3 {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexVenusaur {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  justify-content: center; /* Center vertical */
+  align-items: center; /* Center horizontal */
+  text-align: center; /* Center text */
+}
+
+#pokedexVenusaurInfo {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  background-color: #5cb85c;
+}
+
+#pokedexVenusaurInfo1 {
+  border: solid white;
+  width: 550px;
+  height: 1810px;
+  background-color: #333;
+  position: relative;
+  display: inline-block;
+}
+
+#Venusaur {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexbuttoninfo3 {
+  border: solid white;
+  width: 850px
+}
+
+#pokedexbuttoninfo20 {
   border: solid white;
   width: 850px
 }
