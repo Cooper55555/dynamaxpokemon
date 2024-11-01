@@ -23,6 +23,7 @@
       </div>
       <br>
       <button id="myHome" onclick="home()" hidden>Home</button>
+      <button id="myHome1" onclick="home1()" hidden>Return</button>
     <div class="container">
         <div class="form-container" id="form-container">
             <form id="signup-form">
@@ -33,6 +34,8 @@
                 <button type="submit">Sign Up</button>
             </form>
         </div>
+        <br>
+        <br>
         <br>
         <div class="container1">
         <div class="form-container1" id="form-container1">
@@ -46,36 +49,107 @@
     </div>
 </div>
 <div id="dynamax-pokedex" hidden>
-    <button id="pokedexbutton1" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//001.png" id="pokedeximage1">&#160;&#160;&#160;&#160;&#160;Release: September 10th, 2024</button>
     <br>
-    <button id="pokedexbutton2" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//002.png" id="pokedeximage2">&#160;&#160;&#160;&#160;&#160;Release: September 10th, 2024</button>
+    <div id="pokedex1">
+    <div id="pokedexBulbasaur" hidden>
+        <button id="pokedexBulbasaurInfo" hidden>
+            <p>Bulbasaur</p>
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//001.png" id="pokedeximageBulbasaur">
+            <p>For some time after its birth, it uses the nutrients that are packed into the seed on its back in order to grow.</p>
+            <br>
+            <p>Height: 0.7 m</p>
+            <p>Weight: 6.9 kg</p>
+            <p>Type: Grass & Poison</p>
+            <p>Weakness: Fire, Ice, Flying & Psychic</p>
+        </button>
+    </div>
+    <div id="pokedexBulbasaur1" hidden>
+        <button id="pokedexBulbasaurInfo1" hidden>
+            <p>Biggest counters against Bulbasaur:</p>
+            <br>
+            <p>1. Dynamax Metagross</p>
+            <p>2. Dynamax Charizard</p>
+            <p>3. Dynamax Cinderace</p>
+            <p>4. Dynamax Gengar</p>
+            <p>5. Dynamax Rillaboom</p>
+            <br>
+            <p>A Bulbasaur with perfect stats is 637cp from a dynamax raid.</p>
+            <br>
+            <p>You can get a shiny Bulbasaur from a dynamax raid. The chance to get a shiny Bulbasaur from a dynamax raid is 1-in-512.</p>
+        </button>
+    </div>
+    </div>
     <br>
-    <button id="pokedexbutton3" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//003.png" id="pokedeximage3">&#160;&#160;&#160;&#160;&#160;Release: September 10th, 2024</button>
+    <div id="pokedex2">
+    <div id="pokedexIvysaur" hidden>
+        <button id="pokedexIvysaurInfo" hidden>
+            <p>Ivysaur</p>
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//002.png" id="pokedeximageIvysaur">
+            <p>The more sunlight Ivysaur bathes in, the more strength wells up within it, allowing the bud on its back to grow larger.</p>
+            <br>
+            <p>Height: 1.0 m</p>
+            <p>Weight: 13.0 kg</p>
+            <p>Type: Grass & Poison</p>
+            <p>Weakness: Fire, Ice, Flying & Psychic</p>
+        </button>
+    </div>
+    <div id="pokedexIvysaur1" hidden>
+        <button id="pokedexIvysaurInfo1" hidden>
+            <p>Biggest counters against Ivysaur:</p>
+            <br>
+            <p>1. Dynamax Metagross</p>
+            <p>2. Dynamax Charizard</p>
+            <p>3. Dynamax Cinderace</p>
+            <p>4. Dynamax Gengar</p>
+            <p>5. Dynamax Rillaboom</p>
+            <br>
+            <p>You can't get a Ivysaur from a raid so there is no perfect stats of Ivysaur from a dynamax raid.</p>
+            <br>
+            <p>You can't get a shiny Ivysaur from a dynamax raid because he is not available in dynamax raids.</p>
+        </button>
+    </div>
+    </div>
+    <div id="Bulbasaur"><button id="pokedexbutton1" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//001.png" id="pokedeximage1"></button><button onclick="pokedexbutton1()" id="pokedexbuttoninfo1" hidden>#0001 - Bulbasaur</button><button onclick="pokedexbutton18()" id="pokedexbuttoninfo18" hidden>Coming Soon!</button></div>
     <br>
-    <button id="pokedexbutton4" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//004.png" id="pokedeximage4">&#160;&#160;&#160;&#160;&#160;Release: September 10th, 2024</button>
+    <div id="Ivysaur"><button id="pokedexbutton2" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//002.png" id="pokedeximage2"></button><button onclick="pokedexbutton2()" id="pokedexbuttoninfo2" hidden>#0002 - Ivysaur</button><button onclick="pokedexbutton19()" id="pokedexbuttoninfo19" hidden>Coming Soon!</button></div>
     <br>
-    <button id="pokedexbutton5" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//005.png" id="pokedeximage5">&#160;&#160;&#160;&#160;&#160;Release: September 10th, 2024</button>
+    <button id="pokedexbutton3" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//003.png" id="pokedeximage3">&#160;&#160;&#160;&#160;&#160;&#160;Coming Soon!</button>
     <br>
-    <button id="pokedexbutton6" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//006.png" id="pokedeximage6">&#160;&#160;&#160;&#160;&#160;Release: September 10th, 2024</button>
+    <button id="pokedexbutton4" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//004.png" id="pokedeximage4">&#160;&#160;&#160;&#160;&#160;&#160;Coming Soon!</button>
     <br>
-    <button id="pokedexbutton7" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//007.png" id="pokedeximage7">&#160;&#160;&#160;&#160;&#160;Release: September 10th, 2024</button>
+    <button id="pokedexbutton5" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//005.png" id="pokedeximage5">&#160;&#160;&#160;&#160;&#160;&#160;Coming Soon!</button>
     <br>
-    <button id="pokedexbutton8" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//008.png" id="pokedeximage8">&#160;&#160;&#160;&#160;&#160;Release: September 10th, 2024</button>
+    <button id="pokedexbutton6" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//006.png" id="pokedeximage6">&#160;&#160;&#160;&#160;&#160;&#160;Coming Soon!</button>
     <br>
-    <button id="pokedexbutton9" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//009.png" id="pokedeximage9">&#160;&#160;&#160;&#160;&#160;Release: September 10th, 2024</button>
+    <button id="pokedexbutton7" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//007.png" id="pokedeximage7">&#160;&#160;&#160;&#160;&#160;&#160;Coming Soon!</button>
     <br>
-    <button id="pokedexbutton10" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//092.png" id="pokedeximage10">&#160;&#160;&#160;&#160;&#160;Release: October 22nd, 2024</button>
+    <button id="pokedexbutton8" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//008.png" id="pokedeximage8">&#160;&#160;&#160;&#160;&#160;&#160;Coming Soon!</button>
     <br>
-    <button id="pokedexbutton11" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//093.png" id="pokedeximage11">&#160;&#160;&#160;&#160;&#160;Release: October 22nd, 2024</button>
+    <button id="pokedexbutton9" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//009.png" id="pokedeximage9">&#160;&#160;&#160;&#160;&#160;&#160;Coming Soon!</button>
     <br>
-    <button id="pokedexbutton12" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//094.png" id="pokedeximage12">&#160;&#160;&#160;&#160;&#160;Release: October 22nd, 2024</button>
+    <button id="pokedexbutton10" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//092.png" id="pokedeximage10">&#160;&#160;&#160;&#160;&#160;&#160;Coming Soon!</button>
     <br>
-    <button id="pokedexbutton13" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//374.png" id="pokedeximage13">&#160;&#160;&#160;&#160;&#160;Release: September 18th, 2024</button>
+    <button id="pokedexbutton11" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//093.png" id="pokedeximage11">&#160;&#160;&#160;&#160;&#160;&#160;Coming Soon!</button>
     <br>
-    <button id="pokedexbutton14" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//375.png" id="pokedeximage14">&#160;&#160;&#160;&#160;&#160;Release: September 18th, 2024</button>
+    <button id="pokedexbutton12" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//094.png" id="pokedeximage12">&#160;&#160;&#160;&#160;&#160;&#160;Coming Soon!</button>
     <br>
-    <button id="pokedexbutton15" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//376.png" id="pokedeximage15">&#160;&#160;&#160;&#160;&#160;Release: September 18th, 2024</button>
+    <button id="pokedexbutton13" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//374.png" id="pokedeximage13">&#160;&#160;&#160;&#160;&#160;&#160;Coming Soon!</button>
+    <br>
+    <button id="pokedexbutton14" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//375.png" id="pokedeximage14">&#160;&#160;&#160;&#160;&#160;&#160;Coming Soon!</button>
+    <br>
+    <button id="pokedexbutton15" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//376.png" id="pokedeximage15">&#160;&#160;&#160;&#160;&#160;&#160;Coming Soon!</button>
+    <br>
+    <button id="pokedexbutton16" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//529.png" id="pokedeximage16">&#160;&#160;&#160;&#160;&#160;&#160;Coming Soon!</button>
+    <br>
+    <button id="pokedexbutton17" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//530.png" id="pokedeximage17">&#160;&#160;&#160;&#160;&#160;&#160;Coming Soon!</button>
+    <br>
 </div>
+<div id="arrowbuttons">
+    <button onclick="arrowleft()" id="arrowleft" hidden>&#8678;</button>&#160;&#160;&#160;&#160;&#160;<button onclick="arrowright()" id="arrowright" hidden>&#8680;</button>
+</div>
+<br>
+<br>
+<br>
     <div id="dynamax-information" hidden>
         <p id="informations">Dynamax is a unique phenomenon where Pokémon grow significantly larger, surrounded by a mysterious red glow and swirling clouds. Pokémon with the ability to Dynamax can be encountered, battled, and caught through Max Battles.</p>
         <img src="https://lh3.googleusercontent.com/-B-kDivUEqM6oHlTvC7mL7IhTiIlmBOpDahdNe35QQECdNuH0Biz34FSfgZcdv3b992UpaLWXseXfaLJESVlAH74VWz_JPNGTAiRgrcbYfnjEQ=e365-w1920" id="image1">

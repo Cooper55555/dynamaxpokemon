@@ -5,10 +5,10 @@ body, html {
 }
 
 .background-image {
-  background-image: url('https://i.pinimg.com/236x/16/57/18/1657189dcfbee70da8cc701f64fbac96.jpg'); /* Replace with your image URL */
+  background-image: url('https://i.pinimg.com/originals/01/ba/79/01ba7967ff854b41abee86d065d725dc.jpg'); /* Replace with your image URL */
   background-size: cover; /* Cover the entire div */
   background-position: center; /* Center the image */
-  height: 2400px; /* Full height of the viewport */
+  height: 2350px; /* Full height of the viewport */
   color: white; /* Text color */
   display: flex; /* Flexbox for centering */
   flex-direction: column; /* Column layout */
@@ -24,7 +24,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 1080px;
-  height: 2400px;
+  height: 2350px;
 }
 
 .container {
@@ -78,7 +78,6 @@ button {
 
 #myBtnContainer {
   overflow: hidden;
-  background-color: #333;
   font-family: Arial;
   width: 1080px;
 }
@@ -112,7 +111,7 @@ button {
 .button-container {
   display: flex;
   position: absolute;
-  height: 2400px;
+  height: 2350px;
 }
 
 #signup {
@@ -140,17 +139,19 @@ button {
 }
 
 #dynamax-pokedex {
-  height: 2400px;
+  height: 2350px;
 }
 
 #pokedexbutton1 {
   background-color: #5cb85c;
   border: solid white;
+  width: 100px;
 }
 
 #pokedexbutton2 {
   border: solid white;
   background-color: #5cb85c;
+  width: 100px;
 }
 
 #pokedexbutton3 {
@@ -226,17 +227,17 @@ button {
 
 #pokedexbutton10 {
   border: solid white;
-  background-color: #673AB7
+  background-color: purple
 }
 
 #pokedexbutton11 {
   border: solid white;
-  background-color: #673AB7
+  background-color: purple
 }
 
 #pokedexbutton12 {
   border: solid white;
-  background-color: #673AB7
+  background-color: purple
 }
 
 #pokedeximage10 {
@@ -253,17 +254,17 @@ button {
 
 #pokedexbutton13 {
   border: solid white;
-  background-color: #A19D94
+  background-color: lightslategrey;
 }
 
 #pokedexbutton14 {
   border: solid white;
-  background-color: #A19D94
+  background-color: lightslategrey;
 }
 
 #pokedexbutton15 {
   border: solid white;
-  background-color: #A19D94
+  background-color: lightslategrey;
 }
 
 #pokedeximage13 {
@@ -278,10 +279,296 @@ button {
   width: 70px;
 }
 
+#pokedexbutton16 {
+  border: solid white;
+  background-color: chocolate;
+}
+
+#pokedexbutton17 {
+  border: solid white;
+  background-color: chocolate;
+}
+
+#pokedexbutton18 {
+  border: solid white;
+  background-color: #5cb85c;
+}
+
+#pokedeximage16 {
+  width: 70px;
+}
+
+#pokedeximage17 {
+  width: 70px;
+}
+
+#pokedeximage18 {
+  width: 70px;
+}
+
+#pokedexbutton19 {
+  border: solid white;
+  background-color: #5cb85c;
+}
+
+#pokedexbutton20 {
+  border: solid white;
+  background-color: #5cb85c;
+}
+
+#pokedexbutton21 {
+  border: solid white;
+  background-color: #FFA500
+}
+
+#pokedeximage19 {
+  width: 70px;
+}
+
+#pokedeximage20 {
+  width: 70px;
+}
+
+#pokedeximage21 {
+  width: 70px;
+}
+
+#pokedexbutton22 {
+  background-color: #5cb85c;
+  border: solid white;
+}
+
+#pokedexbutton23 {
+  border: solid white;
+  background-color: #5cb85c;
+}
+
+#pokedexbutton24 {
+  border: solid white;
+  background-color: #5cb85c;
+}
+
+#pokedeximage22 {
+  width: 70px;
+}
+
+#pokedeximage23 {
+  width: 70px;
+}
+
+#pokedeximage24 {
+  width: 70px;
+}
+
+#pokedexbutton25 {
+  border: solid white;
+  background-color: #FFA500;
+}
+
+#pokedexbutton26 {
+  border: solid white;
+  background-color: #FFA500;
+}
+
+#pokedexbutton27 {
+  border: solid white;
+  background-color: #FFA500;
+}
+
+#pokedeximage25 {
+  width: 70px;
+}
+
+#pokedeximage26 {
+  width: 70px;
+}
+
+#pokedeximage27 {
+  width: 70px;
+}
+
+#pokedexbutton28 {
+  border: solid white;
+  background-color: #90D5FF;
+}
+
+#pokedexbutton29 {
+  border: solid white;
+  background-color: #90D5FF;
+}
+
+#pokedexbutton30 {
+  border: solid white;
+  background-color: #90D5FF;
+}
+
+#pokedeximage28 {
+  width: 70px;
+}
+
+#pokedeximage29 {
+  width: 70px;
+}
+
+#pokedeximage30 {
+  width: 70px;
+}
+
+#pokedexbutton31 {
+  border: solid white;
+  background-color: purple;
+}
+
+#pokedexbutton32 {
+  border: solid white;
+  background-color: purple;
+}
+
+#pokedexbutton33 {
+  border: solid white;
+  background-color: purple;
+}
+
+#pokedeximage31 {
+  width: 70px;
+}
+
+#pokedeximage32 {
+  width: 70px;
+}
+
+#pokedeximage33 {
+  width: 70px;
+}
+
 #myHome {
   padding: 12px 16px;
   color: white;
   background-color: #333;
   border: solid white;
   cursor: pointer;
+}
+
+#myHome1 {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+}
+
+#arrowleft {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+  width: 300px;
+}
+
+#arrowright {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+  width: 300px;
+}
+
+#pokedeximageBulbasaur {
+  width: 350px;
+}
+
+#pokedex1 {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexBulbasaur {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  justify-content: center; /* Center vertical */
+  align-items: center; /* Center horizontal */
+  text-align: center; /* Center text */
+}
+
+#pokedexBulbasaurInfo {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  background-color: #5cb85c;
+}
+
+#pokedexBulbasaurInfo1 {
+  border: solid white;
+  width: 550px;
+  height: 1800px;
+  background-color: #333;
+  position: relative;
+  display: inline-block;
+}
+
+#Bulbasaur {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexbuttoninfo1 {
+  border: solid white;
+  width: 850px
+}
+
+#pokedexbuttoninfo18 {
+  border: solid white;
+  width: 850px
+}
+
+#pokedeximageIvysaur {
+  width: 350px;
+}
+
+#pokedex2 {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexIvysaur {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  justify-content: center; /* Center vertical */
+  align-items: center; /* Center horizontal */
+  text-align: center; /* Center text */
+}
+
+#pokedexIvysaurInfo {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  background-color: #5cb85c;
+}
+
+#pokedexIvysaurInfo1 {
+  border: solid white;
+  width: 550px;
+  height: 1800px;
+  background-color: #333;
+  position: relative;
+  display: inline-block;
+}
+
+#Ivysaur {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexbuttoninfo2 {
+  border: solid white;
+  width: 850px
+}
+
+#pokedexbuttoninfo19 {
+  border: solid white;
+  width: 850px
 }
