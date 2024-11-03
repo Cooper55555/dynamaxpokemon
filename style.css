@@ -69,8 +69,8 @@ button {
   width: 950px;
   height: 100px;
   padding: 10px;
-  background-color: #5cb85c;
   border: none;
+  background-color: #5cb85c;
   border-radius: 5px;
   color: white;
   font-size: 50px;
@@ -174,17 +174,20 @@ button {
 
 #pokedexbutton4 {
   border: solid white;
-  background-color: #FFA500
+  background-color: #FFA500;
+  width: 100px;
 }
 
 #pokedexbutton5 {
   border: solid white;
-  background-color: #FFA500
+  background-color: #FFA500;
+  width: 100px;
 }
 
 #pokedexbutton6 {
   border: solid white;
-  background-color: #FFA500
+  background-color: #FFA500;
+  width: 100px;
 }
 
 #pokedeximage4 {
@@ -319,7 +322,7 @@ button {
 
 #pokedexbutton21 {
   border: solid white;
-  background-color: #FFA500
+  background-color: #FFA500;
 }
 
 #pokedeximage19 {
@@ -335,13 +338,13 @@ button {
 }
 
 #pokedexbutton22 {
-  background-color: #5cb85c;
+  background-color: #FFA500;
   border: solid white;
 }
 
 #pokedexbutton23 {
   border: solid white;
-  background-color: #5cb85c;
+  background-color: #FFA500;
 }
 
 #pokedexbutton24 {
@@ -488,7 +491,7 @@ button {
 #pokedexBulbasaur {
   border: solid white;
   width: 400px;
-  height: 1870px;
+  height: 1800px;
   justify-content: center; /* Center vertical */
   align-items: center; /* Center horizontal */
   text-align: center; /* Center text */
@@ -497,14 +500,14 @@ button {
 #pokedexBulbasaurInfo {
   border: solid white;
   width: 400px;
-  height: 1870px;
+  height: 1800px;
   background-color: #5cb85c;
 }
 
 #pokedexBulbasaurInfo1 {
   border: solid white;
   width: 550px;
-  height: 1870px;
+  height: 1800px;
   background-color: #333;
   position: relative;
   display: inline-block;
@@ -516,11 +519,13 @@ button {
 }
 
 #pokedexbuttoninfo1 {
+  background-color: #5cb85c;
   border: solid white;
   width: 850px
 }
 
 #pokedexbuttoninfo18 {
+  background-color: #5cb85c;
   border: solid white;
   width: 850px
 }
@@ -537,7 +542,7 @@ button {
 #pokedexIvysaur {
   border: solid white;
   width: 400px;
-  height: 1870px;
+  height: 1800px;
   justify-content: center; /* Center vertical */
   align-items: center; /* Center horizontal */
   text-align: center; /* Center text */
@@ -546,14 +551,14 @@ button {
 #pokedexIvysaurInfo {
   border: solid white;
   width: 400px;
-  height: 1870px;
+  height: 1800px;
   background-color: #5cb85c;
 }
 
 #pokedexIvysaurInfo1 {
   border: solid white;
   width: 550px;
-  height: 1870px;
+  height: 1800px;
   background-color: #333;
   position: relative;
   display: inline-block;
@@ -574,11 +579,13 @@ button {
 }
 
 #pokedexbuttoninfo2 {
+  background-color: #5cb85c;
   border: solid white;
   width: 850px
 }
 
 #pokedexbuttoninfo19 {
+  background-color: #5cb85c;
   border: solid white;
   width: 850px
 }
@@ -595,7 +602,7 @@ button {
 #pokedexVenusaur {
   border: solid white;
   width: 400px;
-  height: 1870px;
+  height: 1800px;
   justify-content: center; /* Center vertical */
   align-items: center; /* Center horizontal */
   text-align: center; /* Center text */
@@ -604,14 +611,14 @@ button {
 #pokedexVenusaurInfo {
   border: solid white;
   width: 400px;
-  height: 1870px;
+  height: 1800px;
   background-color: #5cb85c;
 }
 
 #pokedexVenusaurInfo1 {
   border: solid white;
   width: 550px;
-  height: 1870px;
+  height: 1800px;
   background-color: #333;
   position: relative;
   display: inline-block;
@@ -623,11 +630,175 @@ button {
 }
 
 #pokedexbuttoninfo3 {
+  background-color: #5cb85c;
   border: solid white;
   width: 850px
 }
 
 #pokedexbuttoninfo20 {
+  background-color: #5cb85c;
+  border: solid white;
+  width: 850px
+}
+
+#pokedeximageCharmander {
+  width: 350px;
+}
+
+#pokedex4 {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexCharmander {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  justify-content: center; /* Center vertical */
+  align-items: center; /* Center horizontal */
+  text-align: center; /* Center text */
+}
+
+#pokedexCharmanderInfo {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  background-color: #FFA500;
+}
+
+#pokedexCharmanderInfo1 {
+  border: solid white;
+  width: 550px;
+  height: 1800px;
+  background-color: #333;
+  position: relative;
+  display: inline-block;
+}
+
+#Charmander {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexbuttoninfo4 {
+  background-color: #FFA500;
+  border: solid white;
+  width: 850px
+}
+
+#pokedexbuttoninfo21 {
+  background-color: #FFA500;
+  border: solid white;
+  width: 850px
+}
+
+#pokedeximageCharmeleon {
+  width: 350px;
+}
+
+#pokedex5 {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexCharmeleon {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  justify-content: center; /* Center vertical */
+  align-items: center; /* Center horizontal */
+  text-align: center; /* Center text */
+}
+
+#pokedexCharmeleonInfo {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  background-color: #FFA500;
+}
+
+#pokedexCharmeleonInfo1 {
+  border: solid white;
+  width: 550px;
+  height: 1800px;
+  background-color: #333;
+  position: relative;
+  display: inline-block;
+}
+
+#pokedexCharmeleonInfo2 {
+  border: solid white;
+  width: 957px;
+  height: 370px;
+  background-color: #333;
+  position: absolute;
+  display: inline-block;
+}
+
+#Charmeleon {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexbuttoninfo5 {
+  background-color: #FFA500;
+  border: solid white;
+  width: 850px
+}
+
+#pokedexbuttoninfo22 {
+  background-color: #FFA500;
+  border: solid white;
+  width: 850px
+}
+
+#pokedeximageCharizard {
+  width: 350px;
+}
+
+#pokedex6 {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexCharizard {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  justify-content: center; /* Center vertical */
+  align-items: center; /* Center horizontal */
+  text-align: center; /* Center text */
+}
+
+#pokedexCharizardInfo {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  background-color: #FFA500;
+}
+
+#pokedexCharizardInfo1 {
+  border: solid white;
+  width: 550px;
+  height: 1800px;
+  background-color: #333;
+  position: relative;
+  display: inline-block;
+}
+
+#Charizard {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexbuttoninfo6 {
+  background-color: #FFA500;
+  border: solid white;
+  width: 850px
+}
+
+#pokedexbuttoninfo23 {
+  background-color: #FFA500;
   border: solid white;
   width: 850px
 }
