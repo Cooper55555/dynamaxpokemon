@@ -64,6 +64,12 @@ function home() {
   document.getElementById("pokedexbuttoninfo22").style.display = "none";
   document.getElementById("pokedexbuttoninfo6").style.display = "none";
   document.getElementById("pokedexbuttoninfo23").style.display = "none";
+  document.getElementById("pokedexbuttoninfo7").style.display = "none";
+  document.getElementById("pokedexbuttoninfo24").style.display = "none";
+  document.getElementById("pokedexbuttoninfo8").style.display = "none";
+  document.getElementById("pokedexbuttoninfo25").style.display = "none";
+  document.getElementById("pokedexbuttoninfo9").style.display = "none";
+  document.getElementById("pokedexbuttoninfo26").style.display = "none";
 }
 
 function home1() {
@@ -89,7 +95,7 @@ function home1() {
   document.getElementById("dynamax-pokedex").style.display = "block";
   document.getElementById("myHome").style.display = "block";
   document.getElementById("arrowright").style.display = "block";
-  document.getElementById("arrowleft").style.display = "none";
+  document.getElementById("arrowleft").style.display = "block";
   document.getElementById("myHome1").style.display = "none";
   document.getElementById("pokedexBulbasaur").style.display = "none";
   document.getElementById("pokedexBulbasaur1").style.display = "none";
@@ -127,6 +133,24 @@ function home1() {
   document.getElementById("pokedexCharizardInfo1").style.display = "none";
   document.getElementById("pokedexbuttoninfo6").style.display = "block";
   document.getElementById("pokedexbuttoninfo23").style.display = "none";
+  document.getElementById("pokedexSquirtle").style.display = "none";
+  document.getElementById("pokedexSquirtle1").style.display = "none";
+  document.getElementById("pokedexSquirtleInfo").style.display = "none";
+  document.getElementById("pokedexSquirtleInfo1").style.display = "none";
+  document.getElementById("pokedexWartortle").style.display = "none";
+  document.getElementById("pokedexWartortle1").style.display = "none";
+  document.getElementById("pokedexWartortleInfo").style.display = "none";
+  document.getElementById("pokedexWartortleInfo1").style.display = "none";
+  document.getElementById("pokedexBlastoise").style.display = "none";
+  document.getElementById("pokedexBlastoise1").style.display = "none";
+  document.getElementById("pokedexBlastoiseInfo").style.display = "none";
+  document.getElementById("pokedexBlastoiseInfo1").style.display = "none";
+  document.getElementById("pokedexbuttoninfo7").style.display = "block";
+  document.getElementById("pokedexbuttoninfo24").style.display = "none";
+  document.getElementById("pokedexbuttoninfo8").style.display = "block";
+  document.getElementById("pokedexbuttoninfo25").style.display = "none";
+  document.getElementById("pokedexbuttoninfo9").style.display = "block";
+  document.getElementById("pokedexbuttoninfo26").style.display = "none";
 }
 
 function pokedexbutton3() {
@@ -171,6 +195,18 @@ function pokedexbutton3() {
   document.getElementById("pokedexCharizard1").style.display = "none";
   document.getElementById("pokedexCharizardInfo").style.display = "none";
   document.getElementById("pokedexCharizardInfo1").style.display = "none";
+  document.getElementById("pokedexSquirtle").style.display = "none";
+  document.getElementById("pokedexSquirtle1").style.display = "none";
+  document.getElementById("pokedexSquirtleInfo").style.display = "none";
+  document.getElementById("pokedexSquirtleInfo1").style.display = "none";
+  document.getElementById("pokedexWartortle").style.display = "none";
+  document.getElementById("pokedexWartortle1").style.display = "none";
+  document.getElementById("pokedexWartortleInfo").style.display = "none";
+  document.getElementById("pokedexWartortleInfo1").style.display = "none";
+  document.getElementById("pokedexBlastoise").style.display = "none";
+  document.getElementById("pokedexBlastoise1").style.display = "none";
+  document.getElementById("pokedexBlastoiseInfo").style.display = "none";
+  document.getElementById("pokedexBlastoiseInfo1").style.display = "none";
   document.getElementById("arrowright").style.display = "none";
   document.getElementById("arrowleft").style.display = "none";
   document.getElementById("myHome").style.display = "none";
@@ -187,6 +223,12 @@ function pokedexbutton3() {
   document.getElementById("pokedexbuttoninfo22").style.display = "none";
   document.getElementById("pokedexbuttoninfo6").style.display = "none";
   document.getElementById("pokedexbuttoninfo23").style.display = "none";
+  document.getElementById("pokedexbuttoninfo7").style.display = "none";
+  document.getElementById("pokedexbuttoninfo24").style.display = "none";
+  document.getElementById("pokedexbuttoninfo8").style.display = "none";
+  document.getElementById("pokedexbuttoninfo25").style.display = "none";
+  document.getElementById("pokedexbuttoninfo9").style.display = "none";
+  document.getElementById("pokedexbuttoninfo26").style.display = "none";
 }
 
 function dynamaxinformation() {
@@ -214,6 +256,12 @@ function dynamaxpokedex() {
   document.getElementById("pokedexbuttoninfo22").style.display = "none";
   document.getElementById("pokedexbuttoninfo6").style.display = "block";
   document.getElementById("pokedexbuttoninfo23").style.display = "none";
+  document.getElementById("pokedexbuttoninfo7").style.display = "block";
+  document.getElementById("pokedexbuttoninfo24").style.display = "none";
+  document.getElementById("pokedexbuttoninfo8").style.display = "block";
+  document.getElementById("pokedexbuttoninfo25").style.display = "none";
+  document.getElementById("pokedexbuttoninfo9").style.display = "block";
+  document.getElementById("pokedexbuttoninfo26").style.display = "none";
   document.getElementById("pokedexbutton2").style.display = "block";
   document.getElementById("pokedexbutton3").style.display = "block";
   document.getElementById("pokedexbutton4").style.display = "block";
@@ -231,7 +279,7 @@ function dynamaxpokedex() {
   document.getElementById("pokedexbutton16").style.display = "block";
   document.getElementById("pokedexbutton17").style.display = "block";
   document.getElementById("arrowright").style.display = "block";
-  document.getElementById("arrowleft").style.display = "none";
+  document.getElementById("arrowleft").style.display = "block";
 }
 
 const myImg1 = document.getElementById("pokedeximage1");
@@ -315,13 +363,19 @@ function arrowright() {
   document.getElementById("pokedexbuttoninfo22").style.display = "block";
   document.getElementById("pokedexbuttoninfo6").style.display = "none";
   document.getElementById("pokedexbuttoninfo23").style.display = "block";
+  document.getElementById("pokedexbuttoninfo7").style.display = "none";
+  document.getElementById("pokedexbuttoninfo24").style.display = "block";
+  document.getElementById("pokedexbuttoninfo8").style.display = "none";
+  document.getElementById("pokedexbuttoninfo25").style.display = "block";
+  document.getElementById("pokedexbuttoninfo9").style.display = "none";
+  document.getElementById("pokedexbuttoninfo26").style.display = "block";
+  document.getElementById("arrowright").style.display = "block";
   document.getElementById("arrowleft").style.display = "block";
-  document.getElementById("arrowright").style.display = "none";
 }
 
 function arrowleft() {
   document.getElementById("arrowright").style.display = "block";
-  document.getElementById("arrowleft").style.display = "none";
+  document.getElementById("arrowleft").style.display = "block";
   document.getElementById("pokedexbuttoninfo1").style.display = "block";
   document.getElementById("pokedexbuttoninfo18").style.display = "none";
   document.getElementById("pokedexbuttoninfo2").style.display = "block";
@@ -334,6 +388,12 @@ function arrowleft() {
   document.getElementById("pokedexbuttoninfo22").style.display = "none";
   document.getElementById("pokedexbuttoninfo6").style.display = "block";
   document.getElementById("pokedexbuttoninfo23").style.display = "none";
+  document.getElementById("pokedexbuttoninfo7").style.display = "block";
+  document.getElementById("pokedexbuttoninfo24").style.display = "none";
+  document.getElementById("pokedexbuttoninfo8").style.display = "block";
+  document.getElementById("pokedexbuttoninfo25").style.display = "none";
+  document.getElementById("pokedexbuttoninfo9").style.display = "block";
+  document.getElementById("pokedexbuttoninfo26").style.display = "none";
   document.getElementById("pokedexbutton10").style.backgroundColor = 'purple';
   document.getElementById("pokedexbutton11").style.backgroundColor = 'purple';
   document.getElementById("pokedexbutton12").style.backgroundColor = 'purple';
@@ -386,6 +446,18 @@ function pokedexbutton1() {
   document.getElementById("pokedexCharizard1").style.display = "none";
   document.getElementById("pokedexCharizardInfo").style.display = "none";
   document.getElementById("pokedexCharizardInfo1").style.display = "none";
+  document.getElementById("pokedexSquirtle").style.display = "none";
+  document.getElementById("pokedexSquirtle1").style.display = "none";
+  document.getElementById("pokedexSquirtleInfo").style.display = "none";
+  document.getElementById("pokedexSquirtleInfo1").style.display = "none";
+  document.getElementById("pokedexWartortle").style.display = "none";
+  document.getElementById("pokedexWartortle1").style.display = "none";
+  document.getElementById("pokedexWartortleInfo").style.display = "none";
+  document.getElementById("pokedexWartortleInfo1").style.display = "none";
+  document.getElementById("pokedexBlastoise").style.display = "none";
+  document.getElementById("pokedexBlastoise1").style.display = "none";
+  document.getElementById("pokedexBlastoiseInfo").style.display = "none";
+  document.getElementById("pokedexBlastoiseInfo1").style.display = "none";
   document.getElementById("arrowright").style.display = "none";
   document.getElementById("arrowleft").style.display = "none";
   document.getElementById("myHome").style.display = "none";
@@ -402,6 +474,12 @@ function pokedexbutton1() {
   document.getElementById("pokedexbuttoninfo22").style.display = "none";
   document.getElementById("pokedexbuttoninfo6").style.display = "none";
   document.getElementById("pokedexbuttoninfo23").style.display = "none";
+  document.getElementById("pokedexbuttoninfo7").style.display = "none";
+  document.getElementById("pokedexbuttoninfo24").style.display = "none";
+  document.getElementById("pokedexbuttoninfo8").style.display = "none";
+  document.getElementById("pokedexbuttoninfo25").style.display = "none";
+  document.getElementById("pokedexbuttoninfo9").style.display = "none";
+  document.getElementById("pokedexbuttoninfo26").style.display = "none";
 }
 
 function pokedexbutton2() {
@@ -446,6 +524,18 @@ function pokedexbutton2() {
   document.getElementById("pokedexCharizard1").style.display = "none";
   document.getElementById("pokedexCharizardInfo").style.display = "none";
   document.getElementById("pokedexCharizardInfo1").style.display = "none";
+  document.getElementById("pokedexSquirtle").style.display = "none";
+  document.getElementById("pokedexSquirtle1").style.display = "none";
+  document.getElementById("pokedexSquirtleInfo").style.display = "none";
+  document.getElementById("pokedexSquirtleInfo1").style.display = "none";
+  document.getElementById("pokedexWartortle").style.display = "none";
+  document.getElementById("pokedexWartortle1").style.display = "none";
+  document.getElementById("pokedexWartortleInfo").style.display = "none";
+  document.getElementById("pokedexWartortleInfo1").style.display = "none";
+  document.getElementById("pokedexBlastoise").style.display = "none";
+  document.getElementById("pokedexBlastoise1").style.display = "none";
+  document.getElementById("pokedexBlastoiseInfo").style.display = "none";
+  document.getElementById("pokedexBlastoiseInfo1").style.display = "none";
   document.getElementById("arrowright").style.display = "none";
   document.getElementById("arrowleft").style.display = "none";
   document.getElementById("myHome").style.display = "none";
@@ -462,6 +552,12 @@ function pokedexbutton2() {
   document.getElementById("pokedexbuttoninfo22").style.display = "none";
   document.getElementById("pokedexbuttoninfo6").style.display = "none";
   document.getElementById("pokedexbuttoninfo23").style.display = "none";
+  document.getElementById("pokedexbuttoninfo7").style.display = "none";
+  document.getElementById("pokedexbuttoninfo24").style.display = "none";
+  document.getElementById("pokedexbuttoninfo8").style.display = "none";
+  document.getElementById("pokedexbuttoninfo25").style.display = "none";
+  document.getElementById("pokedexbuttoninfo9").style.display = "none";
+  document.getElementById("pokedexbuttoninfo26").style.display = "none";
 }
 
 function pokedexbutton4() {
@@ -506,6 +602,18 @@ function pokedexbutton4() {
   document.getElementById("pokedexCharizard1").style.display = "none";
   document.getElementById("pokedexCharizardInfo").style.display = "none";
   document.getElementById("pokedexCharizardInfo1").style.display = "none";
+  document.getElementById("pokedexSquirtle").style.display = "none";
+  document.getElementById("pokedexSquirtle1").style.display = "none";
+  document.getElementById("pokedexSquirtleInfo").style.display = "none";
+  document.getElementById("pokedexSquirtleInfo1").style.display = "none";
+  document.getElementById("pokedexWartortle").style.display = "none";
+  document.getElementById("pokedexWartortle1").style.display = "none";
+  document.getElementById("pokedexWartortleInfo").style.display = "none";
+  document.getElementById("pokedexWartortleInfo1").style.display = "none";
+  document.getElementById("pokedexBlastoise").style.display = "none";
+  document.getElementById("pokedexBlastoise1").style.display = "none";
+  document.getElementById("pokedexBlastoiseInfo").style.display = "none";
+  document.getElementById("pokedexBlastoiseInfo1").style.display = "none";
   document.getElementById("arrowright").style.display = "none";
   document.getElementById("arrowleft").style.display = "none";
   document.getElementById("myHome").style.display = "none";
@@ -522,6 +630,12 @@ function pokedexbutton4() {
   document.getElementById("pokedexbuttoninfo22").style.display = "none";
   document.getElementById("pokedexbuttoninfo6").style.display = "none";
   document.getElementById("pokedexbuttoninfo23").style.display = "none";
+  document.getElementById("pokedexbuttoninfo7").style.display = "none";
+  document.getElementById("pokedexbuttoninfo24").style.display = "none";
+  document.getElementById("pokedexbuttoninfo8").style.display = "none";
+  document.getElementById("pokedexbuttoninfo25").style.display = "none";
+  document.getElementById("pokedexbuttoninfo9").style.display = "none";
+  document.getElementById("pokedexbuttoninfo26").style.display = "none";
 }
 
 function pokedexbutton5() {
@@ -566,6 +680,18 @@ function pokedexbutton5() {
   document.getElementById("pokedexCharizard1").style.display = "none";
   document.getElementById("pokedexCharizardInfo").style.display = "none";
   document.getElementById("pokedexCharizardInfo1").style.display = "none";
+  document.getElementById("pokedexSquirtle").style.display = "none";
+  document.getElementById("pokedexSquirtle1").style.display = "none";
+  document.getElementById("pokedexSquirtleInfo").style.display = "none";
+  document.getElementById("pokedexSquirtleInfo1").style.display = "none";
+  document.getElementById("pokedexWartortle").style.display = "none";
+  document.getElementById("pokedexWartortle1").style.display = "none";
+  document.getElementById("pokedexWartortleInfo").style.display = "none";
+  document.getElementById("pokedexWartortleInfo1").style.display = "none";
+  document.getElementById("pokedexBlastoise").style.display = "none";
+  document.getElementById("pokedexBlastoise1").style.display = "none";
+  document.getElementById("pokedexBlastoiseInfo").style.display = "none";
+  document.getElementById("pokedexBlastoiseInfo1").style.display = "none";
   document.getElementById("arrowright").style.display = "none";
   document.getElementById("arrowleft").style.display = "none";
   document.getElementById("myHome").style.display = "none";
@@ -582,6 +708,12 @@ function pokedexbutton5() {
   document.getElementById("pokedexbuttoninfo22").style.display = "none";
   document.getElementById("pokedexbuttoninfo6").style.display = "none";
   document.getElementById("pokedexbuttoninfo23").style.display = "none";
+  document.getElementById("pokedexbuttoninfo7").style.display = "none";
+  document.getElementById("pokedexbuttoninfo24").style.display = "none";
+  document.getElementById("pokedexbuttoninfo8").style.display = "none";
+  document.getElementById("pokedexbuttoninfo25").style.display = "none";
+  document.getElementById("pokedexbuttoninfo9").style.display = "none";
+  document.getElementById("pokedexbuttoninfo26").style.display = "none";
 }
 
 function pokedexbutton6() {
@@ -626,6 +758,18 @@ function pokedexbutton6() {
   document.getElementById("pokedexCharizard1").style.display = "block";
   document.getElementById("pokedexCharizardInfo").style.display = "block";
   document.getElementById("pokedexCharizardInfo1").style.display = "block";
+  document.getElementById("pokedexSquirtle").style.display = "none";
+  document.getElementById("pokedexSquirtle1").style.display = "none";
+  document.getElementById("pokedexSquirtleInfo").style.display = "none";
+  document.getElementById("pokedexSquirtleInfo1").style.display = "none";
+  document.getElementById("pokedexWartortle").style.display = "none";
+  document.getElementById("pokedexWartortle1").style.display = "none";
+  document.getElementById("pokedexWartortleInfo").style.display = "none";
+  document.getElementById("pokedexWartortleInfo1").style.display = "none";
+  document.getElementById("pokedexBlastoise").style.display = "none";
+  document.getElementById("pokedexBlastoise1").style.display = "none";
+  document.getElementById("pokedexBlastoiseInfo").style.display = "none";
+  document.getElementById("pokedexBlastoiseInfo1").style.display = "none";
   document.getElementById("arrowright").style.display = "none";
   document.getElementById("arrowleft").style.display = "none";
   document.getElementById("myHome").style.display = "none";
@@ -642,4 +786,244 @@ function pokedexbutton6() {
   document.getElementById("pokedexbuttoninfo22").style.display = "none";
   document.getElementById("pokedexbuttoninfo6").style.display = "none";
   document.getElementById("pokedexbuttoninfo23").style.display = "none";
+  document.getElementById("pokedexbuttoninfo7").style.display = "none";
+  document.getElementById("pokedexbuttoninfo24").style.display = "none";
+  document.getElementById("pokedexbuttoninfo8").style.display = "none";
+  document.getElementById("pokedexbuttoninfo25").style.display = "none";
+  document.getElementById("pokedexbuttoninfo9").style.display = "none";
+  document.getElementById("pokedexbuttoninfo26").style.display = "none";
+}
+
+function pokedexbutton7() {
+  document.getElementById("pokedexbutton1").style.display = "none";
+  document.getElementById("pokedexbutton2").style.display = "none";
+  document.getElementById("pokedexbutton3").style.display = "none";
+  document.getElementById("pokedexbutton4").style.display = "none";
+  document.getElementById("pokedexbutton5").style.display = "none";
+  document.getElementById("pokedexbutton6").style.display = "none";
+  document.getElementById("pokedexbutton7").style.display = "none";
+  document.getElementById("pokedexbutton8").style.display = "none";
+  document.getElementById("pokedexbutton9").style.display = "none";
+  document.getElementById("pokedexbutton10").style.display = "none";
+  document.getElementById("pokedexbutton11").style.display = "none";
+  document.getElementById("pokedexbutton12").style.display = "none";
+  document.getElementById("pokedexbutton13").style.display = "none";
+  document.getElementById("pokedexbutton14").style.display = "none";
+  document.getElementById("pokedexbutton15").style.display = "none";
+  document.getElementById("pokedexbutton16").style.display = "none";
+  document.getElementById("pokedexbutton17").style.display = "none";
+  document.getElementById("pokedexBulbasaur").style.display = "none";
+  document.getElementById("pokedexBulbasaur1").style.display = "none";
+  document.getElementById("pokedexBulbasaurInfo").style.display = "none";
+  document.getElementById("pokedexBulbasaurInfo1").style.display = "none";
+  document.getElementById("pokedexIvysaur").style.display = "none";
+  document.getElementById("pokedexIvysaur1").style.display = "none";
+  document.getElementById("pokedexIvysaurInfo").style.display = "none";
+  document.getElementById("pokedexIvysaurInfo1").style.display = "none";
+  document.getElementById("pokedexVenusaur").style.display = "none";
+  document.getElementById("pokedexVenusaur1").style.display = "none";
+  document.getElementById("pokedexVenusaurInfo").style.display = "none";
+  document.getElementById("pokedexVenusaurInfo1").style.display = "none";
+  document.getElementById("pokedexCharmander").style.display = "none";
+  document.getElementById("pokedexCharmander1").style.display = "none";
+  document.getElementById("pokedexCharmanderInfo").style.display = "none";
+  document.getElementById("pokedexCharmanderInfo1").style.display = "none";
+  document.getElementById("pokedexCharmeleon").style.display = "none";
+  document.getElementById("pokedexCharmeleon1").style.display = "none";
+  document.getElementById("pokedexCharmeleonInfo").style.display = "none";
+  document.getElementById("pokedexCharmeleonInfo1").style.display = "none";
+  document.getElementById("pokedexCharizard").style.display = "none";
+  document.getElementById("pokedexCharizard1").style.display = "none";
+  document.getElementById("pokedexCharizardInfo").style.display = "none";
+  document.getElementById("pokedexCharizardInfo1").style.display = "none";
+  document.getElementById("pokedexSquirtle").style.display = "block";
+  document.getElementById("pokedexSquirtle1").style.display = "block";
+  document.getElementById("pokedexSquirtleInfo").style.display = "block";
+  document.getElementById("pokedexSquirtleInfo1").style.display = "block";
+  document.getElementById("pokedexWartortle").style.display = "none";
+  document.getElementById("pokedexWartortle1").style.display = "none";
+  document.getElementById("pokedexWartortleInfo").style.display = "none";
+  document.getElementById("pokedexWartortleInfo1").style.display = "none";
+  document.getElementById("pokedexBlastoise").style.display = "none";
+  document.getElementById("pokedexBlastoise1").style.display = "none";
+  document.getElementById("pokedexBlastoiseInfo").style.display = "none";
+  document.getElementById("pokedexBlastoiseInfo1").style.display = "none";
+  document.getElementById("arrowright").style.display = "none";
+  document.getElementById("arrowleft").style.display = "none";
+  document.getElementById("myHome").style.display = "none";
+  document.getElementById("myHome1").style.display = "block";
+  document.getElementById("pokedexbuttoninfo1").style.display = "none";
+  document.getElementById("pokedexbuttoninfo18").style.display = "none";
+  document.getElementById("pokedexbuttoninfo2").style.display = "none";
+  document.getElementById("pokedexbuttoninfo19").style.display = "none";
+  document.getElementById("pokedexbuttoninfo3").style.display = "none";
+  document.getElementById("pokedexbuttoninfo20").style.display = "none";
+  document.getElementById("pokedexbuttoninfo4").style.display = "none";
+  document.getElementById("pokedexbuttoninfo21").style.display = "none";
+  document.getElementById("pokedexbuttoninfo5").style.display = "none";
+  document.getElementById("pokedexbuttoninfo22").style.display = "none";
+  document.getElementById("pokedexbuttoninfo6").style.display = "none";
+  document.getElementById("pokedexbuttoninfo23").style.display = "none";
+  document.getElementById("pokedexbuttoninfo7").style.display = "none";
+  document.getElementById("pokedexbuttoninfo24").style.display = "none";
+  document.getElementById("pokedexbuttoninfo8").style.display = "none";
+  document.getElementById("pokedexbuttoninfo25").style.display = "none";
+  document.getElementById("pokedexbuttoninfo9").style.display = "none";
+  document.getElementById("pokedexbuttoninfo26").style.display = "none";
+}
+
+function pokedexbutton8() {
+  document.getElementById("pokedexbutton1").style.display = "none";
+  document.getElementById("pokedexbutton2").style.display = "none";
+  document.getElementById("pokedexbutton3").style.display = "none";
+  document.getElementById("pokedexbutton4").style.display = "none";
+  document.getElementById("pokedexbutton5").style.display = "none";
+  document.getElementById("pokedexbutton6").style.display = "none";
+  document.getElementById("pokedexbutton7").style.display = "none";
+  document.getElementById("pokedexbutton8").style.display = "none";
+  document.getElementById("pokedexbutton9").style.display = "none";
+  document.getElementById("pokedexbutton10").style.display = "none";
+  document.getElementById("pokedexbutton11").style.display = "none";
+  document.getElementById("pokedexbutton12").style.display = "none";
+  document.getElementById("pokedexbutton13").style.display = "none";
+  document.getElementById("pokedexbutton14").style.display = "none";
+  document.getElementById("pokedexbutton15").style.display = "none";
+  document.getElementById("pokedexbutton16").style.display = "none";
+  document.getElementById("pokedexbutton17").style.display = "none";
+  document.getElementById("pokedexBulbasaur").style.display = "none";
+  document.getElementById("pokedexBulbasaur1").style.display = "none";
+  document.getElementById("pokedexBulbasaurInfo").style.display = "none";
+  document.getElementById("pokedexBulbasaurInfo1").style.display = "none";
+  document.getElementById("pokedexIvysaur").style.display = "none";
+  document.getElementById("pokedexIvysaur1").style.display = "none";
+  document.getElementById("pokedexIvysaurInfo").style.display = "none";
+  document.getElementById("pokedexIvysaurInfo1").style.display = "none";
+  document.getElementById("pokedexVenusaur").style.display = "none";
+  document.getElementById("pokedexVenusaur1").style.display = "none";
+  document.getElementById("pokedexVenusaurInfo").style.display = "none";
+  document.getElementById("pokedexVenusaurInfo1").style.display = "none";
+  document.getElementById("pokedexCharmander").style.display = "none";
+  document.getElementById("pokedexCharmander1").style.display = "none";
+  document.getElementById("pokedexCharmanderInfo").style.display = "none";
+  document.getElementById("pokedexCharmanderInfo1").style.display = "none";
+  document.getElementById("pokedexCharmeleon").style.display = "none";
+  document.getElementById("pokedexCharmeleon1").style.display = "none";
+  document.getElementById("pokedexCharmeleonInfo").style.display = "none";
+  document.getElementById("pokedexCharmeleonInfo1").style.display = "none";
+  document.getElementById("pokedexCharizard").style.display = "none";
+  document.getElementById("pokedexCharizard1").style.display = "none";
+  document.getElementById("pokedexCharizardInfo").style.display = "none";
+  document.getElementById("pokedexCharizardInfo1").style.display = "none";
+  document.getElementById("pokedexSquirtle").style.display = "none";
+  document.getElementById("pokedexSquirtle1").style.display = "none";
+  document.getElementById("pokedexSquirtleInfo").style.display = "none";
+  document.getElementById("pokedexSquirtleInfo1").style.display = "none";
+  document.getElementById("pokedexWartortle").style.display = "block";
+  document.getElementById("pokedexWartortle1").style.display = "block";
+  document.getElementById("pokedexWartortleInfo").style.display = "block";
+  document.getElementById("pokedexWartortleInfo1").style.display = "block";
+  document.getElementById("pokedexBlastoise").style.display = "none";
+  document.getElementById("pokedexBlastoise1").style.display = "none";
+  document.getElementById("pokedexBlastoiseInfo").style.display = "none";
+  document.getElementById("pokedexBlastoiseInfo1").style.display = "none";
+  document.getElementById("arrowright").style.display = "none";
+  document.getElementById("arrowleft").style.display = "none";
+  document.getElementById("myHome").style.display = "none";
+  document.getElementById("myHome1").style.display = "block";
+  document.getElementById("pokedexbuttoninfo1").style.display = "none";
+  document.getElementById("pokedexbuttoninfo18").style.display = "none";
+  document.getElementById("pokedexbuttoninfo2").style.display = "none";
+  document.getElementById("pokedexbuttoninfo19").style.display = "none";
+  document.getElementById("pokedexbuttoninfo3").style.display = "none";
+  document.getElementById("pokedexbuttoninfo20").style.display = "none";
+  document.getElementById("pokedexbuttoninfo4").style.display = "none";
+  document.getElementById("pokedexbuttoninfo21").style.display = "none";
+  document.getElementById("pokedexbuttoninfo5").style.display = "none";
+  document.getElementById("pokedexbuttoninfo22").style.display = "none";
+  document.getElementById("pokedexbuttoninfo6").style.display = "none";
+  document.getElementById("pokedexbuttoninfo23").style.display = "none";
+  document.getElementById("pokedexbuttoninfo7").style.display = "none";
+  document.getElementById("pokedexbuttoninfo24").style.display = "none";
+  document.getElementById("pokedexbuttoninfo8").style.display = "none";
+  document.getElementById("pokedexbuttoninfo25").style.display = "none";
+  document.getElementById("pokedexbuttoninfo9").style.display = "none";
+  document.getElementById("pokedexbuttoninfo26").style.display = "none";
+}
+
+function pokedexbutton9() {
+  document.getElementById("pokedexbutton1").style.display = "none";
+  document.getElementById("pokedexbutton2").style.display = "none";
+  document.getElementById("pokedexbutton3").style.display = "none";
+  document.getElementById("pokedexbutton4").style.display = "none";
+  document.getElementById("pokedexbutton5").style.display = "none";
+  document.getElementById("pokedexbutton6").style.display = "none";
+  document.getElementById("pokedexbutton7").style.display = "none";
+  document.getElementById("pokedexbutton8").style.display = "none";
+  document.getElementById("pokedexbutton9").style.display = "none";
+  document.getElementById("pokedexbutton10").style.display = "none";
+  document.getElementById("pokedexbutton11").style.display = "none";
+  document.getElementById("pokedexbutton12").style.display = "none";
+  document.getElementById("pokedexbutton13").style.display = "none";
+  document.getElementById("pokedexbutton14").style.display = "none";
+  document.getElementById("pokedexbutton15").style.display = "none";
+  document.getElementById("pokedexbutton16").style.display = "none";
+  document.getElementById("pokedexbutton17").style.display = "none";
+  document.getElementById("pokedexBulbasaur").style.display = "none";
+  document.getElementById("pokedexBulbasaur1").style.display = "none";
+  document.getElementById("pokedexBulbasaurInfo").style.display = "none";
+  document.getElementById("pokedexBulbasaurInfo1").style.display = "none";
+  document.getElementById("pokedexIvysaur").style.display = "none";
+  document.getElementById("pokedexIvysaur1").style.display = "none";
+  document.getElementById("pokedexIvysaurInfo").style.display = "none";
+  document.getElementById("pokedexIvysaurInfo1").style.display = "none";
+  document.getElementById("pokedexVenusaur").style.display = "none";
+  document.getElementById("pokedexVenusaur1").style.display = "none";
+  document.getElementById("pokedexVenusaurInfo").style.display = "none";
+  document.getElementById("pokedexVenusaurInfo1").style.display = "none";
+  document.getElementById("pokedexCharmander").style.display = "none";
+  document.getElementById("pokedexCharmander1").style.display = "none";
+  document.getElementById("pokedexCharmanderInfo").style.display = "none";
+  document.getElementById("pokedexCharmanderInfo1").style.display = "none";
+  document.getElementById("pokedexCharmeleon").style.display = "none";
+  document.getElementById("pokedexCharmeleon1").style.display = "none";
+  document.getElementById("pokedexCharmeleonInfo").style.display = "none";
+  document.getElementById("pokedexCharmeleonInfo1").style.display = "none";
+  document.getElementById("pokedexCharizard").style.display = "none";
+  document.getElementById("pokedexCharizard1").style.display = "none";
+  document.getElementById("pokedexCharizardInfo").style.display = "none";
+  document.getElementById("pokedexCharizardInfo1").style.display = "none";
+  document.getElementById("pokedexSquirtle").style.display = "none";
+  document.getElementById("pokedexSquirtle1").style.display = "none";
+  document.getElementById("pokedexSquirtleInfo").style.display = "none";
+  document.getElementById("pokedexSquirtleInfo1").style.display = "none";
+  document.getElementById("pokedexWartortle").style.display = "none";
+  document.getElementById("pokedexWartortle1").style.display = "none";
+  document.getElementById("pokedexWartortleInfo").style.display = "none";
+  document.getElementById("pokedexWartortleInfo1").style.display = "none";
+  document.getElementById("pokedexBlastoise").style.display = "block";
+  document.getElementById("pokedexBlastoise1").style.display = "block";
+  document.getElementById("pokedexBlastoiseInfo").style.display = "block";
+  document.getElementById("pokedexBlastoiseInfo1").style.display = "block";
+  document.getElementById("arrowright").style.display = "none";
+  document.getElementById("arrowleft").style.display = "none";
+  document.getElementById("myHome").style.display = "none";
+  document.getElementById("myHome1").style.display = "block";
+  document.getElementById("pokedexbuttoninfo1").style.display = "none";
+  document.getElementById("pokedexbuttoninfo18").style.display = "none";
+  document.getElementById("pokedexbuttoninfo2").style.display = "none";
+  document.getElementById("pokedexbuttoninfo19").style.display = "none";
+  document.getElementById("pokedexbuttoninfo3").style.display = "none";
+  document.getElementById("pokedexbuttoninfo20").style.display = "none";
+  document.getElementById("pokedexbuttoninfo4").style.display = "none";
+  document.getElementById("pokedexbuttoninfo21").style.display = "none";
+  document.getElementById("pokedexbuttoninfo5").style.display = "none";
+  document.getElementById("pokedexbuttoninfo22").style.display = "none";
+  document.getElementById("pokedexbuttoninfo6").style.display = "none";
+  document.getElementById("pokedexbuttoninfo23").style.display = "none";
+  document.getElementById("pokedexbuttoninfo7").style.display = "none";
+  document.getElementById("pokedexbuttoninfo24").style.display = "none";
+  document.getElementById("pokedexbuttoninfo8").style.display = "none";
+  document.getElementById("pokedexbuttoninfo25").style.display = "none";
+  document.getElementById("pokedexbuttoninfo9").style.display = "none";
+  document.getElementById("pokedexbuttoninfo26").style.display = "none";
 }
