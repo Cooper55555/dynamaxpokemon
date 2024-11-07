@@ -234,17 +234,20 @@ button {
 
 #pokedexbutton10 {
   border: solid white;
-  background-color: purple
+  background-color: purple;
+  width: 100px;
 }
 
 #pokedexbutton11 {
   border: solid white;
-  background-color: purple
+  background-color: purple;
+  width: 100px;
 }
 
 #pokedexbutton12 {
   border: solid white;
-  background-color: purple
+  background-color: purple;
+  width: 100px;
 }
 
 #pokedeximage10 {
@@ -261,17 +264,20 @@ button {
 
 #pokedexbutton13 {
   border: solid white;
-  background-color: lightslategrey;
+  background-color: darkcyan;
+  width: 100px;
 }
 
 #pokedexbutton14 {
   border: solid white;
-  background-color: lightslategrey;
+  background-color: darkcyan;
+  width: 100px;
 }
 
 #pokedexbutton15 {
   border: solid white;
-  background-color: lightslategrey;
+  background-color: darkcyan;
+  width: 100px;
 }
 
 #pokedeximage13 {
@@ -959,6 +965,462 @@ button {
 
 #pokedexbuttoninfo26 {
   background-color: #90D5FF;
+  border: solid white;
+  width: 850px
+}
+
+#pokedeximageGastly {
+  width: 350px;
+}
+
+#pokedex10 {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexGastly {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  justify-content: center; /* Center vertical */
+  align-items: center; /* Center horizontal */
+  text-align: center; /* Center text */
+}
+
+#pokedexGastlyInfo {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  background-color: purple;
+}
+
+#pokedexGastlyInfo1 {
+  border: solid white;
+  width: 550px;
+  height: 1800px;
+  background-color: #333;
+  position: relative;
+  display: inline-block;
+}
+
+#Gastly {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexbuttoninfo10 {
+  background-color: purple;
+  border: solid white;
+  width: 850px
+}
+
+#pokedexbuttoninfo27 {
+  background-color: chocolate;
+  border: solid white;
+  width: 850px
+}
+
+#pokedeximageHaunter {
+  width: 350px;
+}
+
+#pokedex11 {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexHaunter {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  justify-content: center; /* Center vertical */
+  align-items: center; /* Center horizontal */
+  text-align: center; /* Center text */
+}
+
+#pokedexHaunterInfo {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  background-color: purple;
+}
+
+#pokedexHaunterInfo1 {
+  border: solid white;
+  width: 550px;
+  height: 1800px;
+  background-color: #333;
+  position: relative;
+  display: inline-block;
+}
+
+#Haunter {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexbuttoninfo11 {
+  background-color: purple;
+  border: solid white;
+  width: 850px
+}
+
+#pokedexbuttoninfo28 {
+  background-color: chocolate;
+  border: solid white;
+  width: 850px
+}
+
+#pokedeximageGengar {
+  width: 350px;
+}
+
+#pokedex12 {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexGengar {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  justify-content: center; /* Center vertical */
+  align-items: center; /* Center horizontal */
+  text-align: center; /* Center text */
+}
+
+#pokedexGengarInfo {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  background-color: purple;
+}
+
+#pokedexGengarInfo1 {
+  border: solid white;
+  width: 550px;
+  height: 1800px;
+  background-color: #333;
+  position: relative;
+  display: inline-block;
+}
+
+#Gengar {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexbuttoninfo12 {
+  background-color: purple;
+  border: solid white;
+  width: 850px
+}
+
+#pokedexbuttoninfo29 {
+  background-color: gainsboro;
+  border: solid white;
+  width: 850px
+}
+
+#GengarTypeGhost {
+  background-color: #333;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#GengarTypePoison {
+  background-color: darkorchid;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#HaunterTypeGhost {
+  background-color: #333;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#HaunterTypePoison {
+  background-color: darkorchid;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#GastlyTypeGhost {
+  background-color: #333;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#GastlyTypePoison {
+  background-color: darkorchid;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#BlastoiseTypeWater {
+  background-color: darkturquoise;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#WartortleTypeWater {
+  background-color: darkturquoise;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#SquirtleTypeWater {
+  background-color: darkturquoise;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#CharizardTypeFire {
+  background-color: darkorange;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#CharizardTypeFlying {
+  background-color: lightsteelblue;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#CharmeleonTypeFire {
+  background-color: darkorange;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#CharmanderTypeFire {
+  background-color: darkorange;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#VenusaurTypeGrass {
+  background-color: yellowgreen;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#VenusaurTypePoison {
+  background-color: darkorchid;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#IvysaurTypeGrass {
+  background-color: yellowgreen;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#IvysaurTypePoison {
+  background-color: darkorchid;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#BulbasaurTypeGrass {
+  background-color: yellowgreen;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#BulbasaurTypePoison {
+  background-color: darkorchid;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#BeldumTypeSteel {
+  background-color: steelblue;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#BeldumTypePsychic {
+  background-color: salmon;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#MetangTypeSteel {
+  background-color: steelblue;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#MetangTypePsychic {
+  background-color: salmon;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#MetagrossTypeSteel {
+  background-color: steelblue;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#MetagrossTypePsychic {
+  background-color: salmon;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#pokedeximageBeldum {
+  width: 350px;
+}
+
+#pokedex13 {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexBeldum {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  justify-content: center; /* Center vertical */
+  align-items: center; /* Center horizontal */
+  text-align: center; /* Center text */
+}
+
+#pokedexBeldumInfo {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  background-color: darkcyan;
+}
+
+#pokedexBeldumInfo1 {
+  border: solid white;
+  width: 550px;
+  height: 1800px;
+  background-color: #333;
+  position: relative;
+  display: inline-block;
+}
+
+#Beldum {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexbuttoninfo13 {
+  background-color: darkcyan;
+  border: solid white;
+  width: 850px
+}
+
+#pokedexbuttoninfo30 {
+  background-color: gainsboro;
+  border: solid white;
+  width: 850px
+}
+
+#pokedeximageMetang {
+  width: 350px;
+}
+
+#pokedex14 {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexMetang {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  justify-content: center; /* Center vertical */
+  align-items: center; /* Center horizontal */
+  text-align: center; /* Center text */
+}
+
+#pokedexMetangInfo {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  background-color: darkcyan;
+}
+
+#pokedexMetangInfo1 {
+  border: solid white;
+  width: 550px;
+  height: 1800px;
+  background-color: #333;
+  position: relative;
+  display: inline-block;
+}
+
+#Metang {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexbuttoninfo14 {
+  background-color: darkcyan;
+  border: solid white;
+  width: 850px
+}
+
+#pokedexbuttoninfo31 {
+  background-color: purple;
+  border: solid white;
+  width: 850px
+}
+
+#pokedeximageMetagross {
+  width: 350px;
+}
+
+#pokedex15 {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexMetagross {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  justify-content: center; /* Center vertical */
+  align-items: center; /* Center horizontal */
+  text-align: center; /* Center text */
+}
+
+#pokedexMetagrossInfo {
+  border: solid white;
+  width: 400px;
+  height: 1800px;
+  background-color: darkcyan;
+}
+
+#pokedexMetagrossInfo1 {
+  border: solid white;
+  width: 550px;
+  height: 1800px;
+  background-color: #333;
+  position: relative;
+  display: inline-block;
+}
+
+#Metagross {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexbuttoninfo15 {
+  background-color: darkcyan;
+  border: solid white;
+  width: 850px
+}
+
+#pokedexbuttoninfo32 {
+  background-color: purple;
   border: solid white;
   width: 850px
 }
