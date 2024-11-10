@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dynamax Pokemons</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <html>
     <div class="background-image">
     <div id="myBtnContainer" hidden>
         <div class="buttons-container">
-        <button class="btn" onclick="dynamaxpokedex()"> Dynamax Pokedex</button>
+        <button class="btn" onclick="dynamaxpokedex()" id="dynamaxxpokedex"> Dynamax Pokedex</button>
     </div>
     <br>
     <div class="buttons-container1">
@@ -24,6 +24,23 @@
       <br>
       <button id="myHome" onclick="home()" hidden>Home</button>
       <button id="myHome1" onclick="home1()" hidden>Return</button>
+      <button id="myBack1" onclick="back1()" hidden>Back</button>
+      <button id="myBack2" onclick="back2()" hidden>Back</button>
+      <button id="myBack3" onclick="back3()" hidden>Back</button>
+      <button id="myBack4" onclick="back4()" hidden>Back</button>
+      <button id="myBack5" onclick="back5()" hidden>Back</button>
+      <button id="myBack6" onclick="back6()" hidden>Back</button>
+      <button id="myBack7" onclick="back7()" hidden>Back</button>
+      <button id="myBack8" onclick="back8()" hidden>Back</button>
+      <button id="myBack9" onclick="back9()" hidden>Back</button>
+      <button id="myBack10" onclick="back10()" hidden>Back</button>
+      <button id="myBack11" onclick="back11()" hidden>Back</button>
+      <button id="myBack12" onclick="back12()" hidden>Back</button>
+      <button id="myBack13" onclick="back13()" hidden>Back</button>
+      <button id="myBack14" onclick="back14()" hidden>Back</button>
+      <button id="myBack15" onclick="back15()" hidden>Back</button>
+      <button id="myBack16" onclick="back16()" hidden>Back</button>
+      <button id="myBack17" onclick="back17()" hidden>Back</button>
     <div class="container">
         <div class="form-container" id="form-container">
             <form id="signup-form">
@@ -53,12 +70,13 @@
     <div id="pokedex1">
     <div id="pokedexBulbasaur" hidden>
         <button id="pokedexBulbasaurInfo" hidden>
+            <img src="https://cdn-icons-png.flaticon.com/512/1/1176.png" onclick="information1()" id="informationicon">
             <p>Bulbasaur</p>
             <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//001.png" id="pokedeximageBulbasaur">
-            <p>&#128128;</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/743/743977.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon">
             <p>For some time after its birth, it uses the nutrients that are packed into the seed on its back in order to grow.</p>
-            <p>Type:<br><label id="BulbasaurTypeGrass">Grass</label> & <label id="BulbasaurTypePoison">Poison</label></p>
-            <p>Perfect Stats:<br>637cp & 796cp</p>
+            <p>Type:<br><label id="BulbasaurTypeGrass">Grass</label>&<label id="BulbasaurTypePoison">Poison</label></p>
+            <p>Perfect Stats: 637cp</p>
             <p>Shiny Chance: 1/512</p>
         </button>
     </div>
@@ -87,11 +105,12 @@
     <div id="pokedex2">
     <div id="pokedexIvysaur" hidden>
         <button id="pokedexIvysaurInfo" hidden>
+            <img src="https://cdn-icons-png.flaticon.com/512/1/1176.png" onclick="information2()" id="informationicon">
             <p>Ivysaur</p>
             <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//002.png" id="pokedeximageIvysaur">
             <p>Not Available</p>
             <p>The more sunlight Ivysaur bathes in, the more strength wells up within it, allowing the bud on its back to grow larger.</p>
-            <p>Type:<br><label id="IvysaurTypeGrass">Grass</label> & <label id="IvysaurTypePoison">Poison</label></p>
+            <p>Type:<br><label id="IvysaurTypeGrass">Grass</label>&<label id="IvysaurTypePoison">Poison</label></p>
             <p>Perfect Stats: Not Available</p>
             <p>Shiny Chance: Not Available</p>
         </button>
@@ -120,11 +139,12 @@
     <div id="pokedex3">
         <div id="pokedexVenusaur" hidden>
             <button id="pokedexVenusaurInfo" hidden>
+                <img src="https://cdn-icons-png.flaticon.com/512/1/1176.png" onclick="information3()" id="informationicon">
                 <p>Venusaur</p>
                 <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//003.png" id="pokedeximageVenusaur">
                 <p>Not Available</p>
                 <p>While it basks in the sun, it can convert the light into energy. As a result, it is more powerful in the summertime.</p>
-                <p>Type:<br><label id="VenusaurTypeGrass">Grass</label> & <label id="VenusaurTypePoison">Poison</label></p>
+                <p>Type:<br><label id="VenusaurTypeGrass">Grass</label>&<label id="VenusaurTypePoison">Poison</label></p>
                 <p>Perfect Stats: Not Available</p>
                 <p>Shiny Chance: Not Available</p>
             </button>
@@ -152,12 +172,13 @@
         <div id="pokedex4">
         <div id="pokedexCharmander" hidden>
             <button id="pokedexCharmanderInfo" hidden>
+                <img src="https://cdn-icons-png.flaticon.com/512/1/1176.png" onclick="information4()" id="informationicon">
                 <p>Charmander</p>
                 <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//004.png" id="pokedeximageCharmander">
-                <p>&#128128;</p>
+                <img src="https://cdn-icons-png.flaticon.com/512/743/743977.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon">
                 <p>The flame on its tail shows the strength of its life-force. If Charmander is weak, the flame also burns weakly.</p>
                 <p>Type:<label id="CharmanderTypeFire">Fire</label></p>
-                <p>Perfect Stats:<br>560cp & 700cp</p>
+                <p>Perfect Stats: 560cp</p>
                 <p>Shiny Chance: 1/512</p>
             </button>
         </div>
@@ -186,6 +207,7 @@
         <div id="pokedex5">
         <div id="pokedexCharmeleon" hidden>
             <button id="pokedexCharmeleonInfo" hidden>
+                <img src="https://cdn-icons-png.flaticon.com/512/1/1176.png" onclick="information5()" id="informationicon">
                 <p>Charmeleon</p>
                 <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//005.png" id="pokedeximageCharmeleon">
                 <p>Not Available</p>
@@ -219,11 +241,12 @@
         <div id="pokedex6">
             <div id="pokedexCharizard" hidden>
                 <button id="pokedexCharizardInfo" hidden>
+                    <img src="https://cdn-icons-png.flaticon.com/512/1/1176.png" onclick="information6()" id="informationicon">
                     <p>Charizard</p>
                     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//006.png" id="pokedeximageCharizard">
                     <p>Not Available</p>
                     <p>If Charizard becomes truly angered, the flame at the tip of its tail burns in a light blue shade.</p>
-                    <p>Type:<br><label id="CharizardTypeFire">Fire</label> & <label id="CharizardTypeFlying">Flying</label></p>
+                    <p>Type:<br><label id="CharizardTypeFire">Fire</label>&<label id="CharizardTypeFlying">Flying</label></p>
                     <p>Perfect Stats: Not Available</p>
                     <p>Shiny Chance: Not Available</p>
                 </button>
@@ -252,12 +275,13 @@
         <div id="pokedex7">
             <div id="pokedexSquirtle" hidden>
                 <button id="pokedexSquirtleInfo" hidden>
+                    <img src="https://cdn-icons-png.flaticon.com/512/1/1176.png" onclick="information7()" id="informationicon">
                     <p>Squirtle</p>
                     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//007.png" id="pokedeximageSquirtle">
-                    <p>&#128128;</p>
+                    <img src="https://cdn-icons-png.flaticon.com/512/743/743977.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon">
                     <p>After birth, its back swells and hardens into a shell. It sprays a potent foam from its mouth.</p>
                     <p>Type:<label id="SquirtleTypeWater">Water</label></p>
-                    <p>Perfect Stats:<br>540cp & 675cp</p>
+                    <p>Perfect Stats: 540cp</p>
                     <p>Shiny Chance: 1/512</p>
                 </button>
             </div>
@@ -285,6 +309,7 @@
             <div id="pokedex8">
                 <div id="pokedexWartortle" hidden>
                     <button id="pokedexWartortleInfo" hidden>
+                        <img src="https://cdn-icons-png.flaticon.com/512/1/1176.png" onclick="information8()" id="informationicon">
                         <p>Wartortle</p>
                         <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//008.png" id="pokedeximageWartortle">
                         <p>Not Available</p>
@@ -318,6 +343,7 @@
                 <div id="pokedex9">
                     <div id="pokedexBlastoise" hidden>
                         <button id="pokedexBlastoiseInfo" hidden>
+                            <img src="https://cdn-icons-png.flaticon.com/512/1/1176.png" onclick="information9()" id="informationicon">
                             <p>Blastoise</p>
                             <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//009.png" id="pokedeximageBlastoise">
                             <p>Not Available</p>
@@ -351,12 +377,13 @@
                     <div id="pokedex10">
                         <div id="pokedexGastly" hidden>
                             <button id="pokedexGastlyInfo" hidden>
+                                <img src="https://cdn-icons-png.flaticon.com/512/1/1176.png" onclick="information10()" id="informationicon">
                                 <p>Gastly</p>
                                 <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//092.png" id="pokedeximageGastly">
-                                <p>&#128128;</p>
+                                <img src="https://cdn-icons-png.flaticon.com/512/743/743977.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon">
                                 <p>It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.</p>
-                                <p>Type:<br><label id="GastlyTypeGhost">Ghost</label> & <label id="GastlyTypePoison">Poison</label></p>
-                                <p>Perfect Stats:<br>702cp & 878cp</p>
+                                <p>Type:<br><label id="GastlyTypeGhost">Ghost</label>&<label id="GastlyTypePoison">Poison</label></p>
+                                <p>Perfect Stats: 702cp</p>
                                 <p>Shiny Chance: 1/512</p>
                             </button>
                         </div>
@@ -384,11 +411,12 @@
                         <div id="pokedex11">
                             <div id="pokedexHaunter" hidden>
                                 <button id="pokedexHaunterInfo" hidden>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/1/1176.png" onclick="information11()" id="informationicon">
                                     <p>Haunter</p>
                                     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//093.png" id="pokedeximageHaunter">
                                     <p>Not Available</p>
                                     <p>It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.</p>
-                                    <p>Type:<br><label id="HaunterTypeGhost">Ghost</label> & <label id="HaunterTypePoison">Poison</label></p>
+                                    <p>Type:<br><label id="HaunterTypeGhost">Ghost</label>&<label id="HaunterTypePoison">Poison</label></p>
                                     <p>Perfect Stats: Not Available</p>
                                     <p>Shiny Chance: Not Available</p>
                                 </button>
@@ -417,11 +445,12 @@
                             <div id="pokedex12">
                                 <div id="pokedexGengar" hidden>
                                     <button id="pokedexGengarInfo" hidden>
+                                        <img src="https://cdn-icons-png.flaticon.com/512/1/1176.png" onclick="information12()" id="informationicon">
                                         <p>Gengar</p>
                                         <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//094.png" id="pokedeximageGengar">
                                         <p>Not Available</p>
                                         <p>To steal the life of its target, it slips into the prey’s shadow and silently waits for an opportunity.</p>
-                                        <p>Type:<br><label id="GengarTypeGhost">Ghost</label> & <label id="GengarTypePoison">Poison</label></p>
+                                        <p>Type:<br><label id="GengarTypeGhost">Ghost</label>&<label id="GengarTypePoison">Poison</label></p>
                                         <p>Perfect Stats: Not Available</p>
                                         <p>Shiny Chance: Not Available</p>
                                     </button>
@@ -450,12 +479,13 @@
                                 <div id="pokedex13">
                                     <div id="pokedexBeldum" hidden>
                                         <button id="pokedexBeldumInfo" hidden>
+                                            <img src="https://cdn-icons-png.flaticon.com/512/1/1176.png" onclick="information13()" id="informationicon">
                                             <p>Beldum</p>
                                             <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//374.png" id="pokedeximageBeldum">
-                                            <p>&#128128;&#128128;&#128128;</p>
+                                            <img src="https://cdn-icons-png.flaticon.com/512/743/743977.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/743/743977.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/743/743977.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon">
                                             <p>The magnetic force generated by its body repels the ground’s natural magnetism, letting it float.</p>
-                                            <p>Type:<br><label id="BeldumTypeSteel">Steel</label> & <label id="BeldumTypePsychic">Psychic</label></p>
-                                            <p>Perfect Stats:<br>558cp & 697cp</p>
+                                            <p>Type:<br><label id="BeldumTypeSteel">Steel</label>&<label id="BeldumTypePsychic">Psychic</label></p>
+                                            <p>Perfect Stats: 558cp</p>
                                             <p>Shiny Chance: 1/512</p>
                                         </button>
                                     </div>
@@ -483,11 +513,12 @@
                                     <div id="pokedex14">
                                         <div id="pokedexMetang" hidden>
                                             <button id="pokedexMetangInfo" hidden>
+                                                <img src="https://cdn-icons-png.flaticon.com/512/1/1176.png" onclick="information14()" id="informationicon">
                                                 <p>Metang</p>
                                                 <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//375.png" id="pokedeximageMetang">
                                                 <p>Not Available</p>
                                                 <p>It is formed by two Beldum joining together. Its two brains are linked, amplifying its psychic power.</p>
-                                                <p>Type:<br><label id="MetangTypeSteel">Steel</label> & <label id="MetangTypePsychic">Psychic</label></p>
+                                                <p>Type:<br><label id="MetangTypeSteel">Steel</label>&<label id="MetangTypePsychic">Psychic</label></p>
                                                 <p>Perfect Stats: Not Available</p>
                                                 <p>Shiny Chance: Not Available</p>
                                             </button>
@@ -516,11 +547,12 @@
                                         <div id="pokedex15">
                                             <div id="pokedexMetagross" hidden>
                                                 <button id="pokedexMetagrossInfo" hidden>
+                                                    <img src="https://cdn-icons-png.flaticon.com/512/1/1176.png" onclick="information15()" id="informationicon">
                                                     <p>Metagross</p>
                                                     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//376.png" id="pokedeximageMetagross">
                                                     <p>Not Available</p>
                                                     <p>It folds its four legs when flying. Its four brains are said to be superior to a supercomputer.</p>
-                                                    <p>Type:<br><label id="MetagrossTypeSteel">Steel</label> & <label id="MetagrossTypePsychic">Psychic</label></p>
+                                                    <p>Type:<br><label id="MetagrossTypeSteel">Steel</label>&<label id="MetagrossTypePsychic">Psychic</label></p>
                                                     <p>Perfect Stats: Not Available</p>
                                                     <p>Shiny Chance: Not Available</p>
                                                 </button>
@@ -546,6 +578,74 @@
                                                 </button>
                                             </div>
                                         </div>
+                                        <div id="pokedex16">
+                                            <div id="pokedexDrilbur" hidden>
+                                                <button id="pokedexDrilburInfo" hidden>
+                                                    <img src="https://cdn-icons-png.flaticon.com/512/1/1176.png" onclick="information16()" id="informationicon">
+                                                    <p>Drilbur</p>
+                                                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//529.png" id="pokedeximageDrilbur">
+                                                    <img src="https://cdn-icons-png.flaticon.com/512/743/743977.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon"> <img src="https://cdn-icons-png.flaticon.com/512/744/744104.png" id="pokeballicon">
+                                                    <p>It can dig through the ground at a speed of 30 mph. It could give a car running aboveground a good race.</p>
+                                                    <p>Type:<label id="DrilburTypeGround">Ground</label></p>
+                                                    <p>Perfect Stats: 786cp</p>
+                                                    <p>Shiny Chance: 1/512</p>
+                                                </button>
+                                            </div>
+                                            <div id="pokedexDrilbur1" hidden>
+                                                <button id="pokedexDrilburInfo1" hidden>
+                                                    <p>Biggest Counters:</p>
+                                                    <p>1. Dynamax Rillaboom</p>
+                                                    <p>Fast: Razor Leaf</p>
+                                                    <p>Charged: Earth Power</p>
+                                                    <p>2. Dynamax Venusaur</p>
+                                                    <p>Fast: Razor Leaf</p>
+                                                    <p>Charged: Frenzy Plant</p>
+                                                    <p>3. Dynamax Inteleon</p>
+                                                    <p>Fast: Water Gun</p>
+                                                    <p>Charged: Surf</p>
+                                                    <p>4. Dynamax Drizzile</p>
+                                                    <p>Fast: Water Gun</p>
+                                                    <p>Charged: Surf</p>
+                                                    <p>5. Dynamax Excadrill</p>
+                                                    <p>Fast: Mud Shot</p>
+                                                    <p>Charged: Shadow Ball</p>
+                                                </button>
+                                            </div>
+                                            </div>
+                                            <div id="pokedex17">
+                                                <div id="pokedexExcadrill" hidden>
+                                                    <button id="pokedexExcadrillInfo" hidden>
+                                                        <img src="https://cdn-icons-png.flaticon.com/512/1/1176.png" onclick="information17()" id="informationicon">
+                                                        <p>Excadrill</p>
+                                                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//530.png" id="pokedeximageExcadrill">
+                                                        <p>Not Available</p>
+                                                        <p>Forming a drill with its steel claws and head, it can bore through a steel plate, no matter how thick it is.</p>
+                                                        <p>Type:<br><label id="ExcadrillTypeGround">Ground</label>&<label id="ExcadrillTypeSteel">Steel</label></p>
+                                                        <p>Perfect Stats: Not Available</p>
+                                                        <p>Shiny Chance: Not Available</p>
+                                                    </button>
+                                                </div>
+                                                <div id="pokedexExcadrill1" hidden>
+                                                    <button id="pokedexExcadrillInfo1" hidden>
+                                                        <p>Not Available</p>
+                                                        <p>Not Available</p>
+                                                        <p>Not Available</p>
+                                                        <p>Not Available</p>
+                                                        <p>Not Available</p>
+                                                        <p>Not Available</p>
+                                                        <p>Not Available</p>
+                                                        <p>Not Available</p>
+                                                        <p>Not Available</p>
+                                                        <p>Not Available</p>
+                                                        <p>Not Available</p>
+                                                        <p>Not Available</p>
+                                                        <p>Not Available</p>
+                                                        <p>Not Available</p>
+                                                        <p>Not Available</p>
+                                                        <p>Not Available</p>
+                                                    </button>
+                                                </div>
+                                            </div>
                                     </div>
     <div id="Bulbasaur"><button id="pokedexbutton1" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//001.png" id="pokedeximage1"></button><button onclick="pokedexbutton1()" id="pokedexbuttoninfo1" hidden>#0001 - Bulbasaur</button><button onclick="pokedexbutton18()" id="pokedexbuttoninfo18" hidden>Coming Soon!</button></div>
     <br>
@@ -577,9 +677,9 @@
     <br>
     <div id="Metagross"><button id="pokedexbutton15" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//376.png" id="pokedeximage15"></button><button onclick="pokedexbutton15()" id="pokedexbuttoninfo15" hidden>#0376 - Metagross</button><button onclick="pokedexbutton32()" id="pokedexbuttoninfo32" hidden>Coming Soon!</button></div>
     <br>
-    <button id="pokedexbutton16" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//529.png" id="pokedeximage16">&#160;&#160;&#160;&#160;&#160;&#160;Coming Soon!</button>
+    <div id="Drilbur"><button id="pokedexbutton16" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//529.png" id="pokedeximage16"></button><button onclick="pokedexbutton16()" id="pokedexbuttoninfo16" hidden>#0529 - Drilbur</button><button onclick="pokedexbutton33()" id="pokedexbuttoninfo33" hidden>Coming Soon!</button></div>
     <br>
-    <button id="pokedexbutton17" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//530.png" id="pokedeximage17">&#160;&#160;&#160;&#160;&#160;&#160;Coming Soon!</button>
+    <div id="Excadrill"><button id="pokedexbutton17" hidden><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//530.png" id="pokedeximage17"></button><button onclick="pokedexbutton17()" id="pokedexbuttoninfo17" hidden>#0530 - Excadrill</button><button onclick="pokedexbutton34()" id="pokedexbuttoninfo34" hidden>Coming Soon!</button></div>
     <br>
 </div>
 <div id="arrowbuttons">

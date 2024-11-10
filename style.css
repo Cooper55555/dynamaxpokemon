@@ -295,11 +295,13 @@ button {
 #pokedexbutton16 {
   border: solid white;
   background-color: chocolate;
+  width: 100px;
 }
 
 #pokedexbutton17 {
   border: solid white;
   background-color: chocolate;
+  width: 100px;
 }
 
 #pokedexbutton18 {
@@ -442,6 +444,11 @@ button {
   background-color: purple;
 }
 
+#pokedexbutton34 {
+  border: solid white;
+  background-color: purple;
+}
+
 #pokedeximage31 {
   width: 70px;
 }
@@ -451,6 +458,10 @@ button {
 }
 
 #pokedeximage33 {
+  width: 70px;
+}
+
+#pokedeximage34 {
   width: 70px;
 }
 
@@ -502,33 +513,30 @@ button {
 }
 
 #pokedexBulbasaur {
-  border: solid white;
   width: 400px;
-  height: 1800px;
-  justify-content: center; /* Center vertical */
-  align-items: center; /* Center horizontal */
-  text-align: center; /* Center text */
+  height: 2000px;
+  position: absolute; top: 10%;
 }
 
 #pokedexBulbasaurInfo {
   border: solid white;
+  position: absolute; left: -70%;
   width: 400px;
-  height: 1800px;
+  height: 2000px;
   background-color: #5cb85c;
 }
 
 #pokedexBulbasaurInfo1 {
   border: solid white;
   width: 550px;
-  height: 1800px;
+  height: 2000px;
   background-color: #333;
-  position: relative;
+  position: absolute; left: 10%; top: 10%;
   display: inline-block;
 }
 
 #Bulbasaur {
   display: flex;
-  justify-content: center;
 }
 
 #pokedexbuttoninfo1 {
@@ -553,27 +561,25 @@ button {
 }
 
 #pokedexIvysaur {
-  border: solid white;
   width: 400px;
-  height: 1800px;
-  justify-content: center; /* Center vertical */
-  align-items: center; /* Center horizontal */
-  text-align: center; /* Center text */
+  height: 2000px;
+  position: absolute; top: 10%;
 }
 
 #pokedexIvysaurInfo {
   border: solid white;
+  position: absolute; left: -70%;
   width: 400px;
-  height: 1800px;
+  height: 2000px;
   background-color: #5cb85c;
 }
 
 #pokedexIvysaurInfo1 {
   border: solid white;
   width: 550px;
-  height: 1800px;
+  height: 2000px;
   background-color: #333;
-  position: relative;
+  position: absolute; left: 10%; top: 10%;
   display: inline-block;
 }
 
@@ -588,7 +594,6 @@ button {
 
 #Ivysaur {
   display: flex;
-  justify-content: center;
 }
 
 #pokedexbuttoninfo2 {
@@ -613,33 +618,30 @@ button {
 }
 
 #pokedexVenusaur {
-  border: solid white;
   width: 400px;
-  height: 1800px;
-  justify-content: center; /* Center vertical */
-  align-items: center; /* Center horizontal */
-  text-align: center; /* Center text */
+  height: 2000px;
+  position: absolute; top: 10%;
 }
 
 #pokedexVenusaurInfo {
   border: solid white;
+  position: absolute; left: -70%;
   width: 400px;
-  height: 1800px;
+  height: 2000px;
   background-color: #5cb85c;
 }
 
 #pokedexVenusaurInfo1 {
   border: solid white;
   width: 550px;
-  height: 1800px;
+  height: 2000px;
   background-color: #333;
-  position: relative;
+  position: absolute; left: 10%; top: 10%;
   display: inline-block;
 }
 
 #Venusaur {
   display: flex;
-  justify-content: center;
 }
 
 #pokedexbuttoninfo3 {
@@ -664,33 +666,30 @@ button {
 }
 
 #pokedexCharmander {
-  border: solid white;
   width: 400px;
-  height: 1800px;
-  justify-content: center; /* Center vertical */
-  align-items: center; /* Center horizontal */
-  text-align: center; /* Center text */
+  height: 2000px;
+  position: absolute; top: 10%;
 }
 
 #pokedexCharmanderInfo {
   border: solid white;
+  position: absolute; left: -70%;
   width: 400px;
-  height: 1800px;
+  height: 2000px;
   background-color: #FFA500;
 }
 
 #pokedexCharmanderInfo1 {
   border: solid white;
   width: 550px;
-  height: 1800px;
+  height: 2000px;
   background-color: #333;
-  position: relative;
+  position: absolute; left: 10%; top: 10%;
   display: inline-block;
 }
 
 #Charmander {
   display: flex;
-  justify-content: center;
 }
 
 #pokedexbuttoninfo4 {
@@ -715,27 +714,25 @@ button {
 }
 
 #pokedexCharmeleon {
-  border: solid white;
   width: 400px;
-  height: 1800px;
-  justify-content: center; /* Center vertical */
-  align-items: center; /* Center horizontal */
-  text-align: center; /* Center text */
+  height: 2000px;
+  position: absolute; top: 10%;
 }
 
 #pokedexCharmeleonInfo {
   border: solid white;
+  position: absolute; left: -70%;
   width: 400px;
-  height: 1800px;
+  height: 2000px;
   background-color: #FFA500;
 }
 
 #pokedexCharmeleonInfo1 {
   border: solid white;
   width: 550px;
-  height: 1800px;
+  height: 2000px;
   background-color: #333;
-  position: relative;
+  position: absolute; left: 10%; top: 10%;
   display: inline-block;
 }
 
@@ -750,7 +747,6 @@ button {
 
 #Charmeleon {
   display: flex;
-  justify-content: center;
 }
 
 #pokedexbuttoninfo5 {
@@ -775,33 +771,30 @@ button {
 }
 
 #pokedexCharizard {
-  border: solid white;
   width: 400px;
-  height: 1800px;
-  justify-content: center; /* Center vertical */
-  align-items: center; /* Center horizontal */
-  text-align: center; /* Center text */
+  height: 2000px;
+  position: absolute; top: 10%;
 }
 
 #pokedexCharizardInfo {
   border: solid white;
+  position: absolute; left: -70%;
   width: 400px;
-  height: 1800px;
+  height: 2000px;
   background-color: #FFA500;
 }
 
 #pokedexCharizardInfo1 {
   border: solid white;
   width: 550px;
-  height: 1800px;
+  height: 2000px;
   background-color: #333;
-  position: relative;
+  position: absolute; left: 10%; top: 10%;
   display: inline-block;
 }
 
 #Charizard {
   display: flex;
-  justify-content: center;
 }
 
 #pokedexbuttoninfo6 {
@@ -826,33 +819,30 @@ button {
 }
 
 #pokedexSquirtle {
-  border: solid white;
   width: 400px;
-  height: 1800px;
-  justify-content: center; /* Center vertical */
-  align-items: center; /* Center horizontal */
-  text-align: center; /* Center text */
+  height: 2000px;
+  position: absolute; top: 10%;
 }
 
 #pokedexSquirtleInfo {
   border: solid white;
+  position: absolute; left: -70%;
   width: 400px;
-  height: 1800px;
+  height: 2000px;
   background-color: #90D5FF;
 }
 
 #pokedexSquirtleInfo1 {
   border: solid white;
   width: 550px;
-  height: 1800px;
+  height: 2000px;
   background-color: #333;
-  position: relative;
+  position: absolute; left: 10%; top: 10%;
   display: inline-block;
 }
 
 #Squirtle {
   display: flex;
-  justify-content: center;
 }
 
 #pokedexbuttoninfo7 {
@@ -877,33 +867,30 @@ button {
 }
 
 #pokedexWartortle {
-  border: solid white;
   width: 400px;
-  height: 1800px;
-  justify-content: center; /* Center vertical */
-  align-items: center; /* Center horizontal */
-  text-align: center; /* Center text */
+  height: 2000px;
+  position: absolute; top: 10%;
 }
 
 #pokedexWartortleInfo {
   border: solid white;
+  position: absolute; left: -70%;
   width: 400px;
-  height: 1800px;
+  height: 2000px;
   background-color: #90D5FF;
 }
 
 #pokedexWartortleInfo1 {
   border: solid white;
   width: 550px;
-  height: 1800px;
+  height: 2000px;
   background-color: #333;
-  position: relative;
+  position: absolute; left: 10%; top: 10%;
   display: inline-block;
 }
 
 #Wartortle {
   display: flex;
-  justify-content: center;
 }
 
 #pokedexbuttoninfo8 {
@@ -928,33 +915,30 @@ button {
 }
 
 #pokedexBlastoise {
-  border: solid white;
   width: 400px;
-  height: 1800px;
-  justify-content: center; /* Center vertical */
-  align-items: center; /* Center horizontal */
-  text-align: center; /* Center text */
+  height: 2000px;
+  position: absolute; top: 10%;
 }
 
 #pokedexBlastoiseInfo {
   border: solid white;
+  position: absolute; left: -70%;
   width: 400px;
-  height: 1800px;
+  height: 2000px;
   background-color: #90D5FF;
 }
 
 #pokedexBlastoiseInfo1 {
   border: solid white;
   width: 550px;
-  height: 1800px;
+  height: 2000px;
   background-color: #333;
-  position: relative;
+  position: absolute; left: 10%; top: 10%;
   display: inline-block;
 }
 
 #Blastoise {
   display: flex;
-  justify-content: center;
 }
 
 #pokedexbuttoninfo9 {
@@ -979,33 +963,30 @@ button {
 }
 
 #pokedexGastly {
-  border: solid white;
   width: 400px;
-  height: 1800px;
-  justify-content: center; /* Center vertical */
-  align-items: center; /* Center horizontal */
-  text-align: center; /* Center text */
+  height: 2000px;
+  position: absolute; top: 10%;
 }
 
 #pokedexGastlyInfo {
   border: solid white;
+  position: absolute; left: -70%;
   width: 400px;
-  height: 1800px;
+  height: 2000px;
   background-color: purple;
 }
 
 #pokedexGastlyInfo1 {
   border: solid white;
   width: 550px;
-  height: 1800px;
+  height: 2000px;
   background-color: #333;
-  position: relative;
+  position: absolute; left: 10%; top: 10%;
   display: inline-block;
 }
 
 #Gastly {
   display: flex;
-  justify-content: center;
 }
 
 #pokedexbuttoninfo10 {
@@ -1030,33 +1011,30 @@ button {
 }
 
 #pokedexHaunter {
-  border: solid white;
   width: 400px;
-  height: 1800px;
-  justify-content: center; /* Center vertical */
-  align-items: center; /* Center horizontal */
-  text-align: center; /* Center text */
+  height: 2000px;
+  position: absolute; top: 10%;
 }
 
 #pokedexHaunterInfo {
   border: solid white;
+  position: absolute; left: -70%;
   width: 400px;
-  height: 1800px;
+  height: 2000px;
   background-color: purple;
 }
 
 #pokedexHaunterInfo1 {
   border: solid white;
   width: 550px;
-  height: 1800px;
+  height: 2000px;
   background-color: #333;
-  position: relative;
+  position: absolute; left: 10%; top: 10%;
   display: inline-block;
 }
 
 #Haunter {
   display: flex;
-  justify-content: center;
 }
 
 #pokedexbuttoninfo11 {
@@ -1081,33 +1059,30 @@ button {
 }
 
 #pokedexGengar {
-  border: solid white;
   width: 400px;
-  height: 1800px;
-  justify-content: center; /* Center vertical */
-  align-items: center; /* Center horizontal */
-  text-align: center; /* Center text */
+  height: 2000px;
+  position: absolute; top: 10%;
 }
 
 #pokedexGengarInfo {
   border: solid white;
+  position: absolute; left: -70%;
   width: 400px;
-  height: 1800px;
+  height: 2000px;
   background-color: purple;
 }
 
 #pokedexGengarInfo1 {
   border: solid white;
   width: 550px;
-  height: 1800px;
+  height: 2000px;
   background-color: #333;
-  position: relative;
+  position: absolute; left: 10%; top: 10%;
   display: inline-block;
 }
 
 #Gengar {
   display: flex;
-  justify-content: center;
 }
 
 #pokedexbuttoninfo12 {
@@ -1272,6 +1247,24 @@ button {
   border-radius: 20px;
 }
 
+#DrilburTypeGround {
+  background-color: darkgoldenrod;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#ExcadrillTypeGround {
+  background-color: darkgoldenrod;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
+#ExcadrillTypeSteel {
+  background-color: steelblue;
+  border: solid black 5px;
+  border-radius: 20px;
+}
+
 #pokedeximageBeldum {
   width: 350px;
 }
@@ -1282,33 +1275,30 @@ button {
 }
 
 #pokedexBeldum {
-  border: solid white;
   width: 400px;
-  height: 1800px;
-  justify-content: center; /* Center vertical */
-  align-items: center; /* Center horizontal */
-  text-align: center; /* Center text */
+  height: 2000px;
+  position: absolute; top: 10%;
 }
 
 #pokedexBeldumInfo {
   border: solid white;
+  position: absolute; left: -70%;
   width: 400px;
-  height: 1800px;
+  height: 2000px;
   background-color: darkcyan;
 }
 
 #pokedexBeldumInfo1 {
   border: solid white;
   width: 550px;
-  height: 1800px;
+  height: 2000px;
   background-color: #333;
-  position: relative;
+  position: absolute; left: 10%; top: 10%;
   display: inline-block;
 }
 
 #Beldum {
   display: flex;
-  justify-content: center;
 }
 
 #pokedexbuttoninfo13 {
@@ -1333,33 +1323,30 @@ button {
 }
 
 #pokedexMetang {
-  border: solid white;
   width: 400px;
-  height: 1800px;
-  justify-content: center; /* Center vertical */
-  align-items: center; /* Center horizontal */
-  text-align: center; /* Center text */
+  height: 2000px;
+  position: absolute; top: 10%;
 }
 
 #pokedexMetangInfo {
   border: solid white;
+  position: absolute; left: -70%;
   width: 400px;
-  height: 1800px;
+  height: 2000px;
   background-color: darkcyan;
 }
 
 #pokedexMetangInfo1 {
   border: solid white;
   width: 550px;
-  height: 1800px;
+  height: 2000px;
   background-color: #333;
-  position: relative;
+  position: absolute; left: 10%; top: 10%;
   display: inline-block;
 }
 
 #Metang {
   display: flex;
-  justify-content: center;
 }
 
 #pokedexbuttoninfo14 {
@@ -1384,33 +1371,30 @@ button {
 }
 
 #pokedexMetagross {
-  border: solid white;
   width: 400px;
-  height: 1800px;
-  justify-content: center; /* Center vertical */
-  align-items: center; /* Center horizontal */
-  text-align: center; /* Center text */
+  height: 2000px;
+  position: absolute; top: 10%;
 }
 
 #pokedexMetagrossInfo {
   border: solid white;
+  position: absolute; left: -70%;
   width: 400px;
-  height: 1800px;
+  height: 2000px;
   background-color: darkcyan;
 }
 
 #pokedexMetagrossInfo1 {
   border: solid white;
   width: 550px;
-  height: 1800px;
+  height: 2000px;
   background-color: #333;
-  position: relative;
+  position: absolute; left: 10%; top: 10%;
   display: inline-block;
 }
 
 #Metagross {
   display: flex;
-  justify-content: center;
 }
 
 #pokedexbuttoninfo15 {
@@ -1423,4 +1407,247 @@ button {
   background-color: purple;
   border: solid white;
   width: 850px
+}
+
+#pokedeximageDrilbur {
+  width: 350px;
+}
+
+#pokedex16 {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexDrilbur {
+  width: 400px;
+  height: 2000px;
+  position: absolute; top: 10%;
+}
+
+#pokedexDrilburInfo {
+  border: solid white;
+  position: absolute; left: -70%;
+  width: 400px;
+  height: 2000px;
+  background-color: chocolate;
+}
+
+#pokedexDrilburInfo1 {
+  border: solid white;
+  width: 550px;
+  height: 2000px;
+  background-color: #333;
+  position: absolute; left: 10%; top: 10%;
+  display: inline-block;
+}
+
+#Drilbur {
+  display: flex;
+}
+
+#pokedexbuttoninfo16 {
+  background-color: chocolate;
+  border: solid white;
+  width: 850px
+}
+
+#pokedexbuttoninfo33 {
+  background-color: brown;
+  border: solid white;
+  width: 850px
+}
+
+#pokedeximageExcadrill {
+  width: 350px;
+}
+
+#pokedex17 {
+  display: flex;
+  justify-content: center;
+}
+
+#pokedexExcadrill {
+  width: 400px;
+  height: 2000px;
+  position: absolute; top: 10%;
+}
+
+#pokedexExcadrillInfo {
+  border: solid white;
+  position: absolute; left: -70%;
+  width: 400px;
+  height: 2000px;
+  background-color: chocolate;
+}
+
+#pokedexExcadrillInfo1 {
+  border: solid white;
+  width: 550px;
+  height: 2000px;
+  background-color: #333;
+  position: absolute; left: 10%; top: 10%;
+  display: inline-block;
+}
+
+#Excadrill {
+  display: flex;
+}
+
+#pokedexbuttoninfo17 {
+  background-color: chocolate;
+  border: solid white;
+  width: 850px
+}
+
+#pokedexbuttoninfo34 {
+  background-color: black;
+  border: solid white;
+  width: 850px
+}
+
+#pokeballicon {
+  width: 60px;
+}
+
+#informationicon {
+  width: 200px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+#myBack1 {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+}
+
+#myBack2 {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+}
+
+#myBack3 {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+}
+
+#myBack4 {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+}
+
+#myBack5 {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+}
+
+#myBack6 {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+}
+
+#myBack7 {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+}
+
+#myBack8 {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+}
+
+#myBack9 {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+}
+
+#myBack10 {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+}
+
+#myBack11 {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+}
+
+#myBack12 {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+}
+
+#myBack13 {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+}
+
+#myBack14 {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+}
+
+#myBack15 {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+}
+
+#myBack16 {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
+}
+
+#myBack17 {
+  padding: 12px 16px;
+  color: white;
+  background-color: #333;
+  border: solid white;
+  cursor: pointer;
 }
